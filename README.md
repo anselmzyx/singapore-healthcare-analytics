@@ -24,13 +24,13 @@ Three datasets from **data.gov.sg** (Singapore Department of Statistics / Minist
 
 | Dataset | ID | Coverage | Grain |
 |---|---|---|---|
-| Hospital Admissions, Outpatient Attendances & Day Surgeries | `d_b1ac3356e23ecad918854bbfa3627952` | 1987–2026 | Monthly |
-| Health Facilities & Inpatient Beds (Public/Private/Not-for-Profit) | `d_852ebeb1165d0ec4cdc89fa7742959d1` | 2009–2025 | Annual |
-| Hospital Beds by Facility Type & Planning Region | `d_0ed27481bde3ad8abac12be380a441bb` | 2020–2025 | Annual |
+| [Hospital Admissions, Outpatient Attendances & Day Surgeries](https://data.gov.sg/datasets/d_b1ac3356e23ecad918854bbfa3627952/view) | `d_b1ac3356e23ecad918854bbfa3627952` | 1987–2026 | Monthly |
+| [Health Facilities & Inpatient Beds (Public/Private/Not-for-Profit)](https://data.gov.sg/datasets/d_852ebeb1165d0ec4cdc89fa7742959d1/view) | `d_852ebeb1165d0ec4cdc89fa7742959d1` | 2009–2025 | Annual |
+| [Hospital Beds by Facility Type & Planning Region](https://data.gov.sg/datasets/d_0ed27481bde3ad8abac12be380a441bb/view) | `d_0ed27481bde3ad8abac12be380a441bb` | 2020–2025 | Annual |
 
-**Licence:** Singapore Open Data Licence v1.0, which explicitly permits redistribution, modification, derivative works, and commercial/non-commercial use with attribution. Accordingly:
+**Licence:** [Singapore Open Data Licence v1.0](https://developers.data.gov.sg/open-data-licence), which explicitly permits redistribution, modification, derivative works, and commercial/non-commercial use with attribution. Accordingly:
 
-> Contains information from "Hospital Admissions, Public Sector Outpatient Attendances And Day Surgeries, Monthly", "Health Facilities And Beds In Inpatient Facilities" and "Hospital Beds By Facility Type And Planning Region" accessed from data.gov.sg, made available under the terms of the Singapore Open Data Licence version 1.0.
+> Contains information from "Hospital Admissions, Public Sector Outpatient Attendances And Day Surgeries, Monthly", "Health Facilities And Beds In Inpatient Facilities" and "Hospital Beds By Facility Type And Planning Region" accessed on 2026-11-08 from data.gov.sg, made available under the terms of the [Singapore Open Data Licence version 1.0](https://developers.data.gov.sg/open-data-licence).
 
 ## Workflow
 
@@ -51,7 +51,7 @@ All figures verified directly against the processed CSVs and `results/sql/`.
 
 - **Acute Hospital admissions** reached **658,221** in 2025 (+31.7% since 2015); **Community Hospital admissions** grew far faster in relative terms, reaching **30,231** (+183.3% since 2015), off a much smaller base.
 - **Public Acute Hospital admissions grew faster than Public Acute Hospital bed capacity**, 2015–2025: indexed to 2015 = 100, admissions reached **144.4** vs. beds at **132.7** by 2025. This is a growth-rate comparison, not an occupancy or utilisation measure — the two are never divided into a ratio anywhere in this project.
-- **Every service examined dipped around 2020 and most recovered by 2021–2022** (Dental Clinics: -34.4% then +31.9%), consistent with the well-known pandemic-era disruption — described descriptively here, with no causal claim.
+- **Seven of eight service categories examined declined in 2020** — the exception was Community Hospital admissions, which grew +4.0% that year. Recovery timing varied by service: Dental Clinics fell sharply and rebounded within a year (-34.4% in 2020, +31.9% in 2021), while Psychiatric Hospital admissions and A&E attendances kept declining into 2021 rather than rebounding immediately (-8.8% then -2.4%, and -16.9% then -0.9%, respectively). These are descriptive year-over-year changes only — no causal link to the pandemic or any other driver is claimed.
 - **Hospital bed capacity is concentrated in the Central Region** (≈52.5% of the 2025 national total of 17,296 beds), with Psychiatric Hospital beds located exclusively in the North-East Region.
 - **Known, unresolved source discrepancy:** 2021 Public Community Hospital beds are reported as **1,180** in the national facilities dataset and **1,112** in the regional dataset (difference: **68**). Both values are preserved as published — not averaged or corrected — and are flagged on the dashboard itself.
 
