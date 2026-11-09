@@ -1,0 +1,89 @@
+year,measure_type,service_category,annual_total,yoy_absolute_change,yoy_pct_change,in_2019_2022_window,abs_change_rank,pct_change_rank
+2015,Day Surgeries,Day Surgeries,298029.0,,,False,81,81
+2015,Hospital Admissions,Acute Hospitals,499889.0,,,False,81,81
+2015,Hospital Admissions,Community Hospitals,10670.0,,,False,81,81
+2015,Hospital Admissions,Psychiatric Hospitals,8986.0,,,False,81,81
+2015,Outpatient Attendances,Accident & Emergency Departments,965426.0,,,False,81,81
+2015,Outpatient Attendances,Dental Clinics,1012523.0,,,False,81,81
+2015,Outpatient Attendances,Polyclinics,4874697.0,,,False,81,81
+2015,Outpatient Attendances,Specialist Outpatient Clinics,4699586.0,,,False,81,81
+2016,Day Surgeries,Day Surgeries,326214.0,28185.0,9.46,False,38,21
+2016,Hospital Admissions,Acute Hospitals,546256.0,46367.0,9.28,False,30,23
+2016,Hospital Admissions,Community Hospitals,13881.0,3211.0,30.09,False,62,3
+2016,Hospital Admissions,Psychiatric Hospitals,9028.0,42.0,0.47,False,79,76
+2016,Outpatient Attendances,Accident & Emergency Departments,1008718.0,43292.0,4.48,False,33,40
+2016,Outpatient Attendances,Dental Clinics,1063502.0,50979.0,5.03,False,29,38
+2016,Outpatient Attendances,Polyclinics,5263999.0,389302.0,7.99,False,7,27
+2016,Outpatient Attendances,Specialist Outpatient Clinics,4954502.0,254916.0,5.42,False,12,37
+2017,Day Surgeries,Day Surgeries,339933.0,13719.0,4.21,False,50,42
+2017,Hospital Admissions,Acute Hospitals,568117.0,21861.0,4.0,False,42,46
+2017,Hospital Admissions,Community Hospitals,16355.0,2474.0,17.82,False,63,6
+2017,Hospital Admissions,Psychiatric Hospitals,9316.0,288.0,3.19,False,75,54
+2017,Outpatient Attendances,Accident & Emergency Departments,993458.0,-15260.0,-1.51,False,49,70
+2017,Outpatient Attendances,Dental Clinics,1067080.0,3578.0,0.34,False,60,78
+2017,Outpatient Attendances,Polyclinics,5925787.0,661788.0,12.57,False,4,15
+2017,Outpatient Attendances,Specialist Outpatient Clinics,4973743.0,19241.0,0.39,False,45,77
+2018,Day Surgeries,Day Surgeries,351615.0,11682.0,3.44,False,54,53
+2018,Hospital Admissions,Acute Hospitals,584819.0,16702.0,2.94,False,47,56
+2018,Hospital Admissions,Community Hospitals,17899.0,1544.0,9.44,False,68,22
+2018,Hospital Admissions,Psychiatric Hospitals,9215.0,-101.0,-1.08,False,78,74
+2018,Outpatient Attendances,Accident & Emergency Departments,1005403.0,11945.0,1.2,False,53,71
+2018,Outpatient Attendances,Dental Clinics,1083669.0,16589.0,1.55,False,48,69
+2018,Outpatient Attendances,Polyclinics,6323814.0,398027.0,6.72,False,6,31
+2018,Outpatient Attendances,Specialist Outpatient Clinics,5106088.0,132345.0,2.66,False,20,59
+2019,Day Surgeries,Day Surgeries,376136.0,24521.0,6.97,True,41,30
+2019,Hospital Admissions,Acute Hospitals,618136.0,33317.0,5.7,True,35,35
+2019,Hospital Admissions,Community Hospitals,20043.0,2144.0,11.98,True,65,16
+2019,Hospital Admissions,Psychiatric Hospitals,9234.0,19.0,0.21,True,80,79
+2019,Outpatient Attendances,Accident & Emergency Departments,1080296.0,74893.0,7.45,True,24,29
+2019,Outpatient Attendances,Dental Clinics,1070808.0,-12861.0,-1.19,True,52,73
+2019,Outpatient Attendances,Polyclinics,6691295.0,367481.0,5.81,True,9,33
+2019,Outpatient Attendances,Specialist Outpatient Clinics,5285968.0,179880.0,3.52,True,18,51
+2020,Day Surgeries,Day Surgeries,313483.0,-62653.0,-16.66,True,25,8
+2020,Hospital Admissions,Acute Hospitals,556511.0,-61625.0,-9.97,True,26,20
+2020,Hospital Admissions,Community Hospitals,20852.0,809.0,4.04,True,71,44
+2020,Hospital Admissions,Psychiatric Hospitals,8426.0,-808.0,-8.75,True,72,26
+2020,Outpatient Attendances,Accident & Emergency Departments,897402.0,-182894.0,-16.93,True,16,7
+2020,Outpatient Attendances,Dental Clinics,701924.0,-368884.0,-34.45,True,8,1
+2020,Outpatient Attendances,Polyclinics,5992676.0,-698619.0,-10.44,True,3,18
+2020,Outpatient Attendances,Specialist Outpatient Clinics,4478648.0,-807320.0,-15.27,True,1,10
+2021,Day Surgeries,Day Surgeries,396847.0,83364.0,26.59,True,23,4
+2021,Hospital Admissions,Acute Hospitals,566790.0,10279.0,1.85,True,57,66
+2021,Hospital Admissions,Community Hospitals,21207.0,355.0,1.7,True,73,67
+2021,Hospital Admissions,Psychiatric Hospitals,8226.0,-200.0,-2.37,True,76,61
+2021,Outpatient Attendances,Accident & Emergency Departments,889087.0,-8315.0,-0.93,True,58,75
+2021,Outpatient Attendances,Dental Clinics,926026.0,224102.0,31.93,True,14,2
+2021,Outpatient Attendances,Polyclinics,6200710.0,208034.0,3.47,True,15,52
+2021,Outpatient Attendances,Specialist Outpatient Clinics,5218526.0,739878.0,16.52,True,2,9
+2022,Day Surgeries,Day Surgeries,407927.0,11080.0,2.79,True,56,57
+2022,Hospital Admissions,Acute Hospitals,598896.0,32106.0,5.66,True,36,36
+2022,Hospital Admissions,Community Hospitals,23678.0,2471.0,11.65,True,64,17
+2022,Hospital Admissions,Psychiatric Hospitals,9340.0,1114.0,13.54,True,70,12
+2022,Outpatient Attendances,Accident & Emergency Departments,1021192.0,132105.0,14.86,True,21,11
+2022,Outpatient Attendances,Dental Clinics,914875.0,-11151.0,-1.2,True,55,71
+2022,Outpatient Attendances,Polyclinics,6610293.0,409583.0,6.61,True,5,32
+2022,Outpatient Attendances,Specialist Outpatient Clinics,5220544.0,2018.0,0.04,True,67,80
+2023,Day Surgeries,Day Surgeries,438571.0,30644.0,7.51,False,37,28
+2023,Hospital Admissions,Acute Hospitals,620169.0,21273.0,3.55,False,43,50
+2023,Hospital Admissions,Community Hospitals,21539.0,-2139.0,-9.03,False,66,24
+2023,Hospital Admissions,Psychiatric Hospitals,9693.0,353.0,3.78,False,74,48
+2023,Outpatient Attendances,Accident & Emergency Departments,1048458.0,27266.0,2.67,False,39,58
+2023,Outpatient Attendances,Dental Clinics,933723.0,18848.0,2.06,False,46,63
+2023,Outpatient Attendances,Polyclinics,6896041.0,285748.0,4.32,False,10,41
+2023,Outpatient Attendances,Specialist Outpatient Clinics,5334841.0,114297.0,2.19,False,22,62
+2024,Day Surgeries,Day Surgeries,483773.0,45202.0,10.31,False,31,19
+2024,Hospital Admissions,Acute Hospitals,644945.0,24776.0,4.0,False,40,46
+2024,Hospital Admissions,Community Hospitals,26799.0,5260.0,24.42,False,59,5
+2024,Hospital Admissions,Psychiatric Hospitals,9846.0,153.0,1.58,False,77,68
+2024,Outpatient Attendances,Accident & Emergency Departments,1068165.0,19707.0,1.88,False,44,65
+2024,Outpatient Attendances,Dental Clinics,967942.0,34219.0,3.66,False,34,49
+2024,Outpatient Attendances,Polyclinics,7173299.0,277258.0,4.02,False,11,45
+2024,Outpatient Attendances,Specialist Outpatient Clinics,5500564.0,165723.0,3.11,False,19,55
+2025,Day Surgeries,Day Surgeries,527316.0,43543.0,9.0,False,32,25
+2025,Hospital Admissions,Acute Hospitals,658221.0,13276.0,2.06,False,51,63
+2025,Hospital Admissions,Community Hospitals,30231.0,3432.0,12.81,False,61,14
+2025,Hospital Admissions,Psychiatric Hospitals,11154.0,1308.0,13.28,False,69,13
+2025,Outpatient Attendances,Accident & Emergency Departments,1121024.0,52859.0,4.95,False,28,39
+2025,Outpatient Attendances,Dental Clinics,1023910.0,55968.0,5.78,False,27,34
+2025,Outpatient Attendances,Polyclinics,7354797.0,181498.0,2.53,False,17,60
+2025,Outpatient Attendances,Specialist Outpatient Clinics,5728143.0,227579.0,4.14,False,13,43

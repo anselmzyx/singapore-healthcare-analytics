@@ -1,0 +1,13 @@
+check_name,result
+monthly_duplicate_keys,0
+facilities_duplicate_keys,0
+regional_duplicate_keys,0
+monthly_negative_counts,0
+facilities_negative_values,0
+regional_negative_beds,0
+monthly_missing_values,0
+facilities_missing_values,0
+regional_missing_values,0
+monthly_row_count,1452
+facilities_row_count,165
+regional_row_count,102

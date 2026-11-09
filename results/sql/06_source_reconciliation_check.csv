@@ -1,0 +1,55 @@
+year,facility_type,sector,national_beds,regional_beds,difference,status
+2021,Community Hospitals,Public,1180.0,1112.0,68.0,GENUINE MISMATCH
+2020,Acute Hospitals,Not-for-Profit,285.0,285.0,0.0,match
+2020,Acute Hospitals,Private,1650.0,1650.0,0.0,match
+2020,Acute Hospitals,Public,9610.0,9610.0,0.0,match
+2020,Community Hospitals,Not-for-Profit,939.0,939.0,0.0,match
+2020,Community Hospitals,Private,0.0,,,regional omits zero-bed rows (not a mismatch)
+2020,Community Hospitals,Public,1130.0,1130.0,0.0,match
+2020,Psychiatric Hospitals,Not-for-Profit,0.0,,,regional omits zero-bed rows (not a mismatch)
+2020,Psychiatric Hospitals,Private,0.0,,,regional omits zero-bed rows (not a mismatch)
+2020,Psychiatric Hospitals,Public,1950.0,1950.0,0.0,match
+2021,Acute Hospitals,Not-for-Profit,270.0,270.0,0.0,match
+2021,Acute Hospitals,Private,1672.0,1672.0,0.0,match
+2021,Acute Hospitals,Public,9762.0,9762.0,0.0,match
+2021,Community Hospitals,Not-for-Profit,899.0,899.0,0.0,match
+2021,Community Hospitals,Private,0.0,,,regional omits zero-bed rows (not a mismatch)
+2021,Psychiatric Hospitals,Not-for-Profit,0.0,,,regional omits zero-bed rows (not a mismatch)
+2021,Psychiatric Hospitals,Private,0.0,,,regional omits zero-bed rows (not a mismatch)
+2021,Psychiatric Hospitals,Public,1950.0,1950.0,0.0,match
+2022,Acute Hospitals,Not-for-Profit,273.0,273.0,0.0,match
+2022,Acute Hospitals,Private,1737.0,1737.0,0.0,match
+2022,Acute Hospitals,Public,9820.0,9820.0,0.0,match
+2022,Community Hospitals,Not-for-Profit,968.0,968.0,0.0,match
+2022,Community Hospitals,Private,0.0,,,regional omits zero-bed rows (not a mismatch)
+2022,Community Hospitals,Public,1226.0,1226.0,0.0,match
+2022,Psychiatric Hospitals,Not-for-Profit,0.0,,,regional omits zero-bed rows (not a mismatch)
+2022,Psychiatric Hospitals,Private,0.0,,,regional omits zero-bed rows (not a mismatch)
+2022,Psychiatric Hospitals,Public,1950.0,1950.0,0.0,match
+2023,Acute Hospitals,Not-for-Profit,347.0,347.0,0.0,match
+2023,Acute Hospitals,Private,1722.0,1722.0,0.0,match
+2023,Acute Hospitals,Public,9956.0,9956.0,0.0,match
+2023,Community Hospitals,Not-for-Profit,972.0,972.0,0.0,match
+2023,Community Hospitals,Private,0.0,,,regional omits zero-bed rows (not a mismatch)
+2023,Community Hospitals,Public,1331.0,1331.0,0.0,match
+2023,Psychiatric Hospitals,Not-for-Profit,0.0,,,regional omits zero-bed rows (not a mismatch)
+2023,Psychiatric Hospitals,Private,0.0,,,regional omits zero-bed rows (not a mismatch)
+2023,Psychiatric Hospitals,Public,1950.0,1950.0,0.0,match
+2024,Acute Hospitals,Not-for-Profit,348.0,348.0,0.0,match
+2024,Acute Hospitals,Private,1661.0,1661.0,0.0,match
+2024,Acute Hospitals,Public,10611.0,10611.0,0.0,match
+2024,Community Hospitals,Not-for-Profit,976.0,976.0,0.0,match
+2024,Community Hospitals,Private,0.0,,,regional omits zero-bed rows (not a mismatch)
+2024,Community Hospitals,Public,1577.0,1577.0,0.0,match
+2024,Psychiatric Hospitals,Not-for-Profit,0.0,,,regional omits zero-bed rows (not a mismatch)
+2024,Psychiatric Hospitals,Private,0.0,,,regional omits zero-bed rows (not a mismatch)
+2024,Psychiatric Hospitals,Public,1950.0,1950.0,0.0,match
+2025,Acute Hospitals,Not-for-Profit,334.0,334.0,0.0,match
+2025,Acute Hospitals,Private,1649.0,1649.0,0.0,match
+2025,Acute Hospitals,Public,10784.0,10784.0,0.0,match
+2025,Community Hospitals,Not-for-Profit,982.0,982.0,0.0,match
+2025,Community Hospitals,Private,0.0,,,regional omits zero-bed rows (not a mismatch)
+2025,Community Hospitals,Public,1597.0,1597.0,0.0,match
+2025,Psychiatric Hospitals,Not-for-Profit,0.0,,,regional omits zero-bed rows (not a mismatch)
+2025,Psychiatric Hospitals,Private,0.0,,,regional omits zero-bed rows (not a mismatch)
+2025,Psychiatric Hospitals,Public,1950.0,1950.0,0.0,match

@@ -1,0 +1,35 @@
+# macOS metadata
+.DS_Store
+.Rhistory
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / credentials
+.env
+*.env
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# ZIP archives (build artefacts, not source)
+*.zip
+
+# Power BI temporary/lock files (the final .pbix itself is tracked)
+~$*.pbix
+*.pbix.lock
+dashboard/pbix_backups/
+
+# Stray duplicate dashboard file kept at project root (canonical copy lives in dashboard/)
+/Singapore_Healthcare_Analytics.pbix

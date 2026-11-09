@@ -1,0 +1,1453 @@
+date,year,month,measure_type,service_category,sector,count
+2015-01-01,2015,1,Day Surgeries,Day Surgeries,All,25242
+2015-01-01,2015,1,Hospital Admissions,Acute Hospitals,Non-Public,10175
+2015-01-01,2015,1,Hospital Admissions,Acute Hospitals,Public,31947
+2015-01-01,2015,1,Hospital Admissions,Community Hospitals,Non-Public,694
+2015-01-01,2015,1,Hospital Admissions,Community Hospitals,Public,112
+2015-01-01,2015,1,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2015-01-01,2015,1,Hospital Admissions,Psychiatric Hospitals,Public,704
+2015-01-01,2015,1,Outpatient Attendances,Accident & Emergency Departments,All,83405
+2015-01-01,2015,1,Outpatient Attendances,Dental Clinics,All,104000
+2015-01-01,2015,1,Outpatient Attendances,Polyclinics,All,419470
+2015-01-01,2015,1,Outpatient Attendances,Specialist Outpatient Clinics,All,411376
+2015-02-01,2015,2,Day Surgeries,Day Surgeries,All,19216
+2015-02-01,2015,2,Hospital Admissions,Acute Hospitals,Non-Public,8186
+2015-02-01,2015,2,Hospital Admissions,Acute Hospitals,Public,27416
+2015-02-01,2015,2,Hospital Admissions,Community Hospitals,Non-Public,658
+2015-02-01,2015,2,Hospital Admissions,Community Hospitals,Public,141
+2015-02-01,2015,2,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2015-02-01,2015,2,Hospital Admissions,Psychiatric Hospitals,Public,655
+2015-02-01,2015,2,Outpatient Attendances,Accident & Emergency Departments,All,73842
+2015-02-01,2015,2,Outpatient Attendances,Dental Clinics,All,85664
+2015-02-01,2015,2,Outpatient Attendances,Polyclinics,All,342720
+2015-02-01,2015,2,Outpatient Attendances,Specialist Outpatient Clinics,All,330568
+2015-03-01,2015,3,Day Surgeries,Day Surgeries,All,26427
+2015-03-01,2015,3,Hospital Admissions,Acute Hospitals,Non-Public,10174
+2015-03-01,2015,3,Hospital Admissions,Acute Hospitals,Public,31974
+2015-03-01,2015,3,Hospital Admissions,Community Hospitals,Non-Public,693
+2015-03-01,2015,3,Hospital Admissions,Community Hospitals,Public,127
+2015-03-01,2015,3,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2015-03-01,2015,3,Hospital Admissions,Psychiatric Hospitals,Public,722
+2015-03-01,2015,3,Outpatient Attendances,Accident & Emergency Departments,All,81518
+2015-03-01,2015,3,Outpatient Attendances,Dental Clinics,All,101843
+2015-03-01,2015,3,Outpatient Attendances,Polyclinics,All,426242
+2015-03-01,2015,3,Outpatient Attendances,Specialist Outpatient Clinics,All,417597
+2015-04-01,2015,4,Day Surgeries,Day Surgeries,All,25450
+2015-04-01,2015,4,Hospital Admissions,Acute Hospitals,Non-Public,9988
+2015-04-01,2015,4,Hospital Admissions,Acute Hospitals,Public,31722
+2015-04-01,2015,4,Hospital Admissions,Community Hospitals,Non-Public,745
+2015-04-01,2015,4,Hospital Admissions,Community Hospitals,Public,125
+2015-04-01,2015,4,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2015-04-01,2015,4,Hospital Admissions,Psychiatric Hospitals,Public,757
+2015-04-01,2015,4,Outpatient Attendances,Accident & Emergency Departments,All,80262
+2015-04-01,2015,4,Outpatient Attendances,Dental Clinics,All,98686
+2015-04-01,2015,4,Outpatient Attendances,Polyclinics,All,410379
+2015-04-01,2015,4,Outpatient Attendances,Specialist Outpatient Clinics,All,404565
+2015-05-01,2015,5,Day Surgeries,Day Surgeries,All,25230
+2015-05-01,2015,5,Hospital Admissions,Acute Hospitals,Non-Public,10124
+2015-05-01,2015,5,Hospital Admissions,Acute Hospitals,Public,32325
+2015-05-01,2015,5,Hospital Admissions,Community Hospitals,Non-Public,736
+2015-05-01,2015,5,Hospital Admissions,Community Hospitals,Public,143
+2015-05-01,2015,5,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2015-05-01,2015,5,Hospital Admissions,Psychiatric Hospitals,Public,749
+2015-05-01,2015,5,Outpatient Attendances,Accident & Emergency Departments,All,86075
+2015-05-01,2015,5,Outpatient Attendances,Dental Clinics,All,82539
+2015-05-01,2015,5,Outpatient Attendances,Polyclinics,All,411033
+2015-05-01,2015,5,Outpatient Attendances,Specialist Outpatient Clinics,All,384116
+2015-06-01,2015,6,Day Surgeries,Day Surgeries,All,24349
+2015-06-01,2015,6,Hospital Admissions,Acute Hospitals,Non-Public,10012
+2015-06-01,2015,6,Hospital Admissions,Acute Hospitals,Public,31014
+2015-06-01,2015,6,Hospital Admissions,Community Hospitals,Non-Public,686
+2015-06-01,2015,6,Hospital Admissions,Community Hospitals,Public,147
+2015-06-01,2015,6,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2015-06-01,2015,6,Hospital Admissions,Psychiatric Hospitals,Public,776
+2015-06-01,2015,6,Outpatient Attendances,Accident & Emergency Departments,All,83377
+2015-06-01,2015,6,Outpatient Attendances,Dental Clinics,All,64086
+2015-06-01,2015,6,Outpatient Attendances,Polyclinics,All,404895
+2015-06-01,2015,6,Outpatient Attendances,Specialist Outpatient Clinics,All,385033
+2015-07-01,2015,7,Day Surgeries,Day Surgeries,All,27545
+2015-07-01,2015,7,Hospital Admissions,Acute Hospitals,Non-Public,10145
+2015-07-01,2015,7,Hospital Admissions,Acute Hospitals,Public,32138
+2015-07-01,2015,7,Hospital Admissions,Community Hospitals,Non-Public,737
+2015-07-01,2015,7,Hospital Admissions,Community Hospitals,Public,196
+2015-07-01,2015,7,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2015-07-01,2015,7,Hospital Admissions,Psychiatric Hospitals,Public,801
+2015-07-01,2015,7,Outpatient Attendances,Accident & Emergency Departments,All,80360
+2015-07-01,2015,7,Outpatient Attendances,Dental Clinics,All,99557
+2015-07-01,2015,7,Outpatient Attendances,Polyclinics,All,421428
+2015-07-01,2015,7,Outpatient Attendances,Specialist Outpatient Clinics,All,423464
+2015-08-01,2015,8,Day Surgeries,Day Surgeries,All,24502
+2015-08-01,2015,8,Hospital Admissions,Acute Hospitals,Non-Public,9977
+2015-08-01,2015,8,Hospital Admissions,Acute Hospitals,Public,30861
+2015-08-01,2015,8,Hospital Admissions,Community Hospitals,Non-Public,713
+2015-08-01,2015,8,Hospital Admissions,Community Hospitals,Public,197
+2015-08-01,2015,8,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2015-08-01,2015,8,Hospital Admissions,Psychiatric Hospitals,Public,733
+2015-08-01,2015,8,Outpatient Attendances,Accident & Emergency Departments,All,82665
+2015-08-01,2015,8,Outpatient Attendances,Dental Clinics,All,84866
+2015-08-01,2015,8,Outpatient Attendances,Polyclinics,All,395185
+2015-08-01,2015,8,Outpatient Attendances,Specialist Outpatient Clinics,All,377630
+2015-09-01,2015,9,Day Surgeries,Day Surgeries,All,24605
+2015-09-01,2015,9,Hospital Admissions,Acute Hospitals,Non-Public,9847
+2015-09-01,2015,9,Hospital Admissions,Acute Hospitals,Public,31371
+2015-09-01,2015,9,Hospital Admissions,Community Hospitals,Non-Public,668
+2015-09-01,2015,9,Hospital Admissions,Community Hospitals,Public,208
+2015-09-01,2015,9,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2015-09-01,2015,9,Hospital Admissions,Psychiatric Hospitals,Public,787
+2015-09-01,2015,9,Outpatient Attendances,Accident & Emergency Departments,All,75508
+2015-09-01,2015,9,Outpatient Attendances,Dental Clinics,All,80934
+2015-09-01,2015,9,Outpatient Attendances,Polyclinics,All,397460
+2015-09-01,2015,9,Outpatient Attendances,Specialist Outpatient Clinics,All,387870
+2015-10-01,2015,10,Day Surgeries,Day Surgeries,All,27133
+2015-10-01,2015,10,Hospital Admissions,Acute Hospitals,Non-Public,10581
+2015-10-01,2015,10,Hospital Admissions,Acute Hospitals,Public,33746
+2015-10-01,2015,10,Hospital Admissions,Community Hospitals,Non-Public,729
+2015-10-01,2015,10,Hospital Admissions,Community Hospitals,Public,273
+2015-10-01,2015,10,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2015-10-01,2015,10,Hospital Admissions,Psychiatric Hospitals,Public,797
+2015-10-01,2015,10,Outpatient Attendances,Accident & Emergency Departments,All,78941
+2015-10-01,2015,10,Outpatient Attendances,Dental Clinics,All,82609
+2015-10-01,2015,10,Outpatient Attendances,Polyclinics,All,429056
+2015-10-01,2015,10,Outpatient Attendances,Specialist Outpatient Clinics,All,415116
+2015-11-01,2015,11,Day Surgeries,Day Surgeries,All,24123
+2015-11-01,2015,11,Hospital Admissions,Acute Hospitals,Non-Public,10334
+2015-11-01,2015,11,Hospital Admissions,Acute Hospitals,Public,31479
+2015-11-01,2015,11,Hospital Admissions,Community Hospitals,Non-Public,663
+2015-11-01,2015,11,Hospital Admissions,Community Hospitals,Public,229
+2015-11-01,2015,11,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2015-11-01,2015,11,Hospital Admissions,Psychiatric Hospitals,Public,708
+2015-11-01,2015,11,Outpatient Attendances,Accident & Emergency Departments,All,77552
+2015-11-01,2015,11,Outpatient Attendances,Dental Clinics,All,70642
+2015-11-01,2015,11,Outpatient Attendances,Polyclinics,All,397986
+2015-11-01,2015,11,Outpatient Attendances,Specialist Outpatient Clinics,All,378057
+2015-12-01,2015,12,Day Surgeries,Day Surgeries,All,24207
+2015-12-01,2015,12,Hospital Admissions,Acute Hospitals,Non-Public,10373
+2015-12-01,2015,12,Hospital Admissions,Acute Hospitals,Public,33980
+2015-12-01,2015,12,Hospital Admissions,Community Hospitals,Non-Public,761
+2015-12-01,2015,12,Hospital Admissions,Community Hospitals,Public,289
+2015-12-01,2015,12,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2015-12-01,2015,12,Hospital Admissions,Psychiatric Hospitals,Public,797
+2015-12-01,2015,12,Outpatient Attendances,Accident & Emergency Departments,All,81921
+2015-12-01,2015,12,Outpatient Attendances,Dental Clinics,All,57097
+2015-12-01,2015,12,Outpatient Attendances,Polyclinics,All,418843
+2015-12-01,2015,12,Outpatient Attendances,Specialist Outpatient Clinics,All,384194
+2016-01-01,2016,1,Day Surgeries,Day Surgeries,All,25801
+2016-01-01,2016,1,Hospital Admissions,Acute Hospitals,Non-Public,10767
+2016-01-01,2016,1,Hospital Admissions,Acute Hospitals,Public,33775
+2016-01-01,2016,1,Hospital Admissions,Community Hospitals,Non-Public,656
+2016-01-01,2016,1,Hospital Admissions,Community Hospitals,Public,288
+2016-01-01,2016,1,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2016-01-01,2016,1,Hospital Admissions,Psychiatric Hospitals,Public,738
+2016-01-01,2016,1,Outpatient Attendances,Accident & Emergency Departments,All,89522
+2016-01-01,2016,1,Outpatient Attendances,Dental Clinics,All,100401
+2016-01-01,2016,1,Outpatient Attendances,Polyclinics,All,424430
+2016-01-01,2016,1,Outpatient Attendances,Specialist Outpatient Clinics,All,406426
+2016-02-01,2016,2,Day Surgeries,Day Surgeries,All,22675
+2016-02-01,2016,2,Hospital Admissions,Acute Hospitals,Non-Public,9560
+2016-02-01,2016,2,Hospital Admissions,Acute Hospitals,Public,31652
+2016-02-01,2016,2,Hospital Admissions,Community Hospitals,Non-Public,604
+2016-02-01,2016,2,Hospital Admissions,Community Hospitals,Public,331
+2016-02-01,2016,2,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2016-02-01,2016,2,Hospital Admissions,Psychiatric Hospitals,Public,737
+2016-02-01,2016,2,Outpatient Attendances,Accident & Emergency Departments,All,85822
+2016-02-01,2016,2,Outpatient Attendances,Dental Clinics,All,99356
+2016-02-01,2016,2,Outpatient Attendances,Polyclinics,All,399914
+2016-02-01,2016,2,Outpatient Attendances,Specialist Outpatient Clinics,All,369372
+2016-03-01,2016,3,Day Surgeries,Day Surgeries,All,28632
+2016-03-01,2016,3,Hospital Admissions,Acute Hospitals,Non-Public,11224
+2016-03-01,2016,3,Hospital Admissions,Acute Hospitals,Public,35405
+2016-03-01,2016,3,Hospital Admissions,Community Hospitals,Non-Public,665
+2016-03-01,2016,3,Hospital Admissions,Community Hospitals,Public,426
+2016-03-01,2016,3,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2016-03-01,2016,3,Hospital Admissions,Psychiatric Hospitals,Public,793
+2016-03-01,2016,3,Outpatient Attendances,Accident & Emergency Departments,All,87290
+2016-03-01,2016,3,Outpatient Attendances,Dental Clinics,All,100627
+2016-03-01,2016,3,Outpatient Attendances,Polyclinics,All,461900
+2016-03-01,2016,3,Outpatient Attendances,Specialist Outpatient Clinics,All,438412
+2016-04-01,2016,4,Day Surgeries,Day Surgeries,All,27857
+2016-04-01,2016,4,Hospital Admissions,Acute Hospitals,Non-Public,11062
+2016-04-01,2016,4,Hospital Admissions,Acute Hospitals,Public,34621
+2016-04-01,2016,4,Hospital Admissions,Community Hospitals,Non-Public,745
+2016-04-01,2016,4,Hospital Admissions,Community Hospitals,Public,438
+2016-04-01,2016,4,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2016-04-01,2016,4,Hospital Admissions,Psychiatric Hospitals,Public,854
+2016-04-01,2016,4,Outpatient Attendances,Accident & Emergency Departments,All,80777
+2016-04-01,2016,4,Outpatient Attendances,Dental Clinics,All,102309
+2016-04-01,2016,4,Outpatient Attendances,Polyclinics,All,442411
+2016-04-01,2016,4,Outpatient Attendances,Specialist Outpatient Clinics,All,417248
+2016-05-01,2016,5,Day Surgeries,Day Surgeries,All,28021
+2016-05-01,2016,5,Hospital Admissions,Acute Hospitals,Non-Public,10666
+2016-05-01,2016,5,Hospital Admissions,Acute Hospitals,Public,34673
+2016-05-01,2016,5,Hospital Admissions,Community Hospitals,Non-Public,694
+2016-05-01,2016,5,Hospital Admissions,Community Hospitals,Public,463
+2016-05-01,2016,5,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2016-05-01,2016,5,Hospital Admissions,Psychiatric Hospitals,Public,795
+2016-05-01,2016,5,Outpatient Attendances,Accident & Emergency Departments,All,85931
+2016-05-01,2016,5,Outpatient Attendances,Dental Clinics,All,82377
+2016-05-01,2016,5,Outpatient Attendances,Polyclinics,All,434117
+2016-05-01,2016,5,Outpatient Attendances,Specialist Outpatient Clinics,All,415697
+2016-06-01,2016,6,Day Surgeries,Day Surgeries,All,28261
+2016-06-01,2016,6,Hospital Admissions,Acute Hospitals,Non-Public,10807
+2016-06-01,2016,6,Hospital Admissions,Acute Hospitals,Public,35036
+2016-06-01,2016,6,Hospital Admissions,Community Hospitals,Non-Public,667
+2016-06-01,2016,6,Hospital Admissions,Community Hospitals,Public,471
+2016-06-01,2016,6,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2016-06-01,2016,6,Hospital Admissions,Psychiatric Hospitals,Public,756
+2016-06-01,2016,6,Outpatient Attendances,Accident & Emergency Departments,All,80906
+2016-06-01,2016,6,Outpatient Attendances,Dental Clinics,All,71979
+2016-06-01,2016,6,Outpatient Attendances,Polyclinics,All,442582
+2016-06-01,2016,6,Outpatient Attendances,Specialist Outpatient Clinics,All,420403
+2016-07-01,2016,7,Day Surgeries,Day Surgeries,All,25915
+2016-07-01,2016,7,Hospital Admissions,Acute Hospitals,Non-Public,11530
+2016-07-01,2016,7,Hospital Admissions,Acute Hospitals,Public,35628
+2016-07-01,2016,7,Hospital Admissions,Community Hospitals,Non-Public,764
+2016-07-01,2016,7,Hospital Admissions,Community Hospitals,Public,464
+2016-07-01,2016,7,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2016-07-01,2016,7,Hospital Admissions,Psychiatric Hospitals,Public,692
+2016-07-01,2016,7,Outpatient Attendances,Accident & Emergency Departments,All,87482
+2016-07-01,2016,7,Outpatient Attendances,Dental Clinics,All,95846
+2016-07-01,2016,7,Outpatient Attendances,Polyclinics,All,443474
+2016-07-01,2016,7,Outpatient Attendances,Specialist Outpatient Clinics,All,394274
+2016-08-01,2016,8,Day Surgeries,Day Surgeries,All,29056
+2016-08-01,2016,8,Hospital Admissions,Acute Hospitals,Non-Public,10868
+2016-08-01,2016,8,Hospital Admissions,Acute Hospitals,Public,36033
+2016-08-01,2016,8,Hospital Admissions,Community Hospitals,Non-Public,750
+2016-08-01,2016,8,Hospital Admissions,Community Hospitals,Public,522
+2016-08-01,2016,8,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2016-08-01,2016,8,Hospital Admissions,Psychiatric Hospitals,Public,762
+2016-08-01,2016,8,Outpatient Attendances,Accident & Emergency Departments,All,87475
+2016-08-01,2016,8,Outpatient Attendances,Dental Clinics,All,102088
+2016-08-01,2016,8,Outpatient Attendances,Polyclinics,All,468604
+2016-08-01,2016,8,Outpatient Attendances,Specialist Outpatient Clinics,All,442534
+2016-09-01,2016,9,Day Surgeries,Day Surgeries,All,26821
+2016-09-01,2016,9,Hospital Admissions,Acute Hospitals,Non-Public,11028
+2016-09-01,2016,9,Hospital Admissions,Acute Hospitals,Public,34354
+2016-09-01,2016,9,Hospital Admissions,Community Hospitals,Non-Public,691
+2016-09-01,2016,9,Hospital Admissions,Community Hospitals,Public,520
+2016-09-01,2016,9,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2016-09-01,2016,9,Hospital Admissions,Psychiatric Hospitals,Public,733
+2016-09-01,2016,9,Outpatient Attendances,Accident & Emergency Departments,All,81809
+2016-09-01,2016,9,Outpatient Attendances,Dental Clinics,All,88834
+2016-09-01,2016,9,Outpatient Attendances,Polyclinics,All,430934
+2016-09-01,2016,9,Outpatient Attendances,Specialist Outpatient Clinics,All,410259
+2016-10-01,2016,10,Day Surgeries,Day Surgeries,All,27721
+2016-10-01,2016,10,Hospital Admissions,Acute Hospitals,Non-Public,11022
+2016-10-01,2016,10,Hospital Admissions,Acute Hospitals,Public,34886
+2016-10-01,2016,10,Hospital Admissions,Community Hospitals,Non-Public,708
+2016-10-01,2016,10,Hospital Admissions,Community Hospitals,Public,498
+2016-10-01,2016,10,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2016-10-01,2016,10,Hospital Admissions,Psychiatric Hospitals,Public,731
+2016-10-01,2016,10,Outpatient Attendances,Accident & Emergency Departments,All,82339
+2016-10-01,2016,10,Outpatient Attendances,Dental Clinics,All,80025
+2016-10-01,2016,10,Outpatient Attendances,Polyclinics,All,428708
+2016-10-01,2016,10,Outpatient Attendances,Specialist Outpatient Clinics,All,414329
+2016-11-01,2016,11,Day Surgeries,Day Surgeries,All,29222
+2016-11-01,2016,11,Hospital Admissions,Acute Hospitals,Non-Public,10478
+2016-11-01,2016,11,Hospital Admissions,Acute Hospitals,Public,35081
+2016-11-01,2016,11,Hospital Admissions,Community Hospitals,Non-Public,728
+2016-11-01,2016,11,Hospital Admissions,Community Hospitals,Public,492
+2016-11-01,2016,11,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2016-11-01,2016,11,Hospital Admissions,Psychiatric Hospitals,Public,741
+2016-11-01,2016,11,Outpatient Attendances,Accident & Emergency Departments,All,79320
+2016-11-01,2016,11,Outpatient Attendances,Dental Clinics,All,81549
+2016-11-01,2016,11,Outpatient Attendances,Polyclinics,All,451631
+2016-11-01,2016,11,Outpatient Attendances,Specialist Outpatient Clinics,All,434280
+2016-12-01,2016,12,Day Surgeries,Day Surgeries,All,26232
+2016-12-01,2016,12,Hospital Admissions,Acute Hospitals,Non-Public,10581
+2016-12-01,2016,12,Hospital Admissions,Acute Hospitals,Public,35519
+2016-12-01,2016,12,Hospital Admissions,Community Hospitals,Non-Public,777
+2016-12-01,2016,12,Hospital Admissions,Community Hospitals,Public,519
+2016-12-01,2016,12,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2016-12-01,2016,12,Hospital Admissions,Psychiatric Hospitals,Public,696
+2016-12-01,2016,12,Outpatient Attendances,Accident & Emergency Departments,All,80045
+2016-12-01,2016,12,Outpatient Attendances,Dental Clinics,All,58111
+2016-12-01,2016,12,Outpatient Attendances,Polyclinics,All,435294
+2016-12-01,2016,12,Outpatient Attendances,Specialist Outpatient Clinics,All,391268
+2017-01-01,2017,1,Day Surgeries,Day Surgeries,All,24645
+2017-01-01,2017,1,Hospital Admissions,Acute Hospitals,Non-Public,10316
+2017-01-01,2017,1,Hospital Admissions,Acute Hospitals,Public,34301
+2017-01-01,2017,1,Hospital Admissions,Community Hospitals,Non-Public,751
+2017-01-01,2017,1,Hospital Admissions,Community Hospitals,Public,531
+2017-01-01,2017,1,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2017-01-01,2017,1,Hospital Admissions,Psychiatric Hospitals,Public,745
+2017-01-01,2017,1,Outpatient Attendances,Accident & Emergency Departments,All,85325
+2017-01-01,2017,1,Outpatient Attendances,Dental Clinics,All,96567
+2017-01-01,2017,1,Outpatient Attendances,Polyclinics,All,438835
+2017-01-01,2017,1,Outpatient Attendances,Specialist Outpatient Clinics,All,388260
+2017-02-01,2017,2,Day Surgeries,Day Surgeries,All,27053
+2017-02-01,2017,2,Hospital Admissions,Acute Hospitals,Non-Public,10062
+2017-02-01,2017,2,Hospital Admissions,Acute Hospitals,Public,33373
+2017-02-01,2017,2,Hospital Admissions,Community Hospitals,Non-Public,608
+2017-02-01,2017,2,Hospital Admissions,Community Hospitals,Public,442
+2017-02-01,2017,2,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2017-02-01,2017,2,Hospital Admissions,Psychiatric Hospitals,Public,717
+2017-02-01,2017,2,Outpatient Attendances,Accident & Emergency Departments,All,79354
+2017-02-01,2017,2,Outpatient Attendances,Dental Clinics,All,108403
+2017-02-01,2017,2,Outpatient Attendances,Polyclinics,All,478108
+2017-02-01,2017,2,Outpatient Attendances,Specialist Outpatient Clinics,All,400818
+2017-03-01,2017,3,Day Surgeries,Day Surgeries,All,30901
+2017-03-01,2017,3,Hospital Admissions,Acute Hospitals,Non-Public,11563
+2017-03-01,2017,3,Hospital Admissions,Acute Hospitals,Public,37691
+2017-03-01,2017,3,Hospital Admissions,Community Hospitals,Non-Public,761
+2017-03-01,2017,3,Hospital Admissions,Community Hospitals,Public,617
+2017-03-01,2017,3,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2017-03-01,2017,3,Hospital Admissions,Psychiatric Hospitals,Public,865
+2017-03-01,2017,3,Outpatient Attendances,Accident & Emergency Departments,All,87191
+2017-03-01,2017,3,Outpatient Attendances,Dental Clinics,All,106469
+2017-03-01,2017,3,Outpatient Attendances,Polyclinics,All,536613
+2017-03-01,2017,3,Outpatient Attendances,Specialist Outpatient Clinics,All,449486
+2017-04-01,2017,4,Day Surgeries,Day Surgeries,All,26638
+2017-04-01,2017,4,Hospital Admissions,Acute Hospitals,Non-Public,10972
+2017-04-01,2017,4,Hospital Admissions,Acute Hospitals,Public,35638
+2017-04-01,2017,4,Hospital Admissions,Community Hospitals,Non-Public,713
+2017-04-01,2017,4,Hospital Admissions,Community Hospitals,Public,606
+2017-04-01,2017,4,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2017-04-01,2017,4,Hospital Admissions,Psychiatric Hospitals,Public,712
+2017-04-01,2017,4,Outpatient Attendances,Accident & Emergency Departments,All,84124
+2017-04-01,2017,4,Outpatient Attendances,Dental Clinics,All,91880
+2017-04-01,2017,4,Outpatient Attendances,Polyclinics,All,472734
+2017-04-01,2017,4,Outpatient Attendances,Specialist Outpatient Clinics,All,389625
+2017-05-01,2017,5,Day Surgeries,Day Surgeries,All,29058
+2017-05-01,2017,5,Hospital Admissions,Acute Hospitals,Non-Public,10953
+2017-05-01,2017,5,Hospital Admissions,Acute Hospitals,Public,37535
+2017-05-01,2017,5,Hospital Admissions,Community Hospitals,Non-Public,781
+2017-05-01,2017,5,Hospital Admissions,Community Hospitals,Public,612
+2017-05-01,2017,5,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2017-05-01,2017,5,Hospital Admissions,Psychiatric Hospitals,Public,844
+2017-05-01,2017,5,Outpatient Attendances,Accident & Emergency Departments,All,90987
+2017-05-01,2017,5,Outpatient Attendances,Dental Clinics,All,85624
+2017-05-01,2017,5,Outpatient Attendances,Polyclinics,All,517837
+2017-05-01,2017,5,Outpatient Attendances,Specialist Outpatient Clinics,All,429839
+2017-06-01,2017,6,Day Surgeries,Day Surgeries,All,28200
+2017-06-01,2017,6,Hospital Admissions,Acute Hospitals,Non-Public,10636
+2017-06-01,2017,6,Hospital Admissions,Acute Hospitals,Public,36680
+2017-06-01,2017,6,Hospital Admissions,Community Hospitals,Non-Public,719
+2017-06-01,2017,6,Hospital Admissions,Community Hospitals,Public,659
+2017-06-01,2017,6,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2017-06-01,2017,6,Hospital Admissions,Psychiatric Hospitals,Public,803
+2017-06-01,2017,6,Outpatient Attendances,Accident & Emergency Departments,All,81552
+2017-06-01,2017,6,Outpatient Attendances,Dental Clinics,All,71913
+2017-06-01,2017,6,Outpatient Attendances,Polyclinics,All,478843
+2017-06-01,2017,6,Outpatient Attendances,Specialist Outpatient Clinics,All,406009
+2017-07-01,2017,7,Day Surgeries,Day Surgeries,All,30101
+2017-07-01,2017,7,Hospital Admissions,Acute Hospitals,Non-Public,11403
+2017-07-01,2017,7,Hospital Admissions,Acute Hospitals,Public,37335
+2017-07-01,2017,7,Hospital Admissions,Community Hospitals,Non-Public,746
+2017-07-01,2017,7,Hospital Admissions,Community Hospitals,Public,607
+2017-07-01,2017,7,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2017-07-01,2017,7,Hospital Admissions,Psychiatric Hospitals,Public,786
+2017-07-01,2017,7,Outpatient Attendances,Accident & Emergency Departments,All,84964
+2017-07-01,2017,7,Outpatient Attendances,Dental Clinics,All,104301
+2017-07-01,2017,7,Outpatient Attendances,Polyclinics,All,507901
+2017-07-01,2017,7,Outpatient Attendances,Specialist Outpatient Clinics,All,426819
+2017-08-01,2017,8,Day Surgeries,Day Surgeries,All,30862
+2017-08-01,2017,8,Hospital Admissions,Acute Hospitals,Non-Public,11159
+2017-08-01,2017,8,Hospital Admissions,Acute Hospitals,Public,37525
+2017-08-01,2017,8,Hospital Admissions,Community Hospitals,Non-Public,794
+2017-08-01,2017,8,Hospital Admissions,Community Hospitals,Public,699
+2017-08-01,2017,8,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2017-08-01,2017,8,Hospital Admissions,Psychiatric Hospitals,Public,771
+2017-08-01,2017,8,Outpatient Attendances,Accident & Emergency Departments,All,81977
+2017-08-01,2017,8,Outpatient Attendances,Dental Clinics,All,98041
+2017-08-01,2017,8,Outpatient Attendances,Polyclinics,All,522699
+2017-08-01,2017,8,Outpatient Attendances,Specialist Outpatient Clinics,All,449400
+2017-09-01,2017,9,Day Surgeries,Day Surgeries,All,27227
+2017-09-01,2017,9,Hospital Admissions,Acute Hospitals,Non-Public,10751
+2017-09-01,2017,9,Hospital Admissions,Acute Hospitals,Public,35381
+2017-09-01,2017,9,Hospital Admissions,Community Hospitals,Non-Public,741
+2017-09-01,2017,9,Hospital Admissions,Community Hospitals,Public,645
+2017-09-01,2017,9,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2017-09-01,2017,9,Hospital Admissions,Psychiatric Hospitals,Public,698
+2017-09-01,2017,9,Outpatient Attendances,Accident & Emergency Departments,All,77268
+2017-09-01,2017,9,Outpatient Attendances,Dental Clinics,All,86927
+2017-09-01,2017,9,Outpatient Attendances,Polyclinics,All,482951
+2017-09-01,2017,9,Outpatient Attendances,Specialist Outpatient Clinics,All,398141
+2017-10-01,2017,10,Day Surgeries,Day Surgeries,All,29044
+2017-10-01,2017,10,Hospital Admissions,Acute Hospitals,Non-Public,11468
+2017-10-01,2017,10,Hospital Admissions,Acute Hospitals,Public,37066
+2017-10-01,2017,10,Hospital Admissions,Community Hospitals,Non-Public,797
+2017-10-01,2017,10,Hospital Admissions,Community Hospitals,Public,650
+2017-10-01,2017,10,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2017-10-01,2017,10,Hospital Admissions,Psychiatric Hospitals,Public,767
+2017-10-01,2017,10,Outpatient Attendances,Accident & Emergency Departments,All,82793
+2017-10-01,2017,10,Outpatient Attendances,Dental Clinics,All,79637
+2017-10-01,2017,10,Outpatient Attendances,Polyclinics,All,501308
+2017-10-01,2017,10,Outpatient Attendances,Specialist Outpatient Clinics,All,419176
+2017-11-01,2017,11,Day Surgeries,Day Surgeries,All,30315
+2017-11-01,2017,11,Hospital Admissions,Acute Hospitals,Non-Public,11006
+2017-11-01,2017,11,Hospital Admissions,Acute Hospitals,Public,37220
+2017-11-01,2017,11,Hospital Admissions,Community Hospitals,Non-Public,780
+2017-11-01,2017,11,Hospital Admissions,Community Hospitals,Public,638
+2017-11-01,2017,11,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2017-11-01,2017,11,Hospital Admissions,Psychiatric Hospitals,Public,818
+2017-11-01,2017,11,Outpatient Attendances,Accident & Emergency Departments,All,78327
+2017-11-01,2017,11,Outpatient Attendances,Dental Clinics,All,80857
+2017-11-01,2017,11,Outpatient Attendances,Polyclinics,All,509702
+2017-11-01,2017,11,Outpatient Attendances,Specialist Outpatient Clinics,All,439655
+2017-12-01,2017,12,Day Surgeries,Day Surgeries,All,25889
+2017-12-01,2017,12,Hospital Admissions,Acute Hospitals,Non-Public,10946
+2017-12-01,2017,12,Hospital Admissions,Acute Hospitals,Public,37137
+2017-12-01,2017,12,Hospital Admissions,Community Hospitals,Non-Public,803
+2017-12-01,2017,12,Hospital Admissions,Community Hospitals,Public,655
+2017-12-01,2017,12,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2017-12-01,2017,12,Hospital Admissions,Psychiatric Hospitals,Public,790
+2017-12-01,2017,12,Outpatient Attendances,Accident & Emergency Departments,All,79596
+2017-12-01,2017,12,Outpatient Attendances,Dental Clinics,All,56461
+2017-12-01,2017,12,Outpatient Attendances,Polyclinics,All,478256
+2017-12-01,2017,12,Outpatient Attendances,Specialist Outpatient Clinics,All,376515
+2018-01-01,2018,1,Day Surgeries,Day Surgeries,All,31558
+2018-01-01,2018,1,Hospital Admissions,Acute Hospitals,Non-Public,11416
+2018-01-01,2018,1,Hospital Admissions,Acute Hospitals,Public,38300
+2018-01-01,2018,1,Hospital Admissions,Community Hospitals,Non-Public,762
+2018-01-01,2018,1,Hospital Admissions,Community Hospitals,Public,581
+2018-01-01,2018,1,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2018-01-01,2018,1,Hospital Admissions,Psychiatric Hospitals,Public,796
+2018-01-01,2018,1,Outpatient Attendances,Accident & Emergency Departments,All,88237
+2018-01-01,2018,1,Outpatient Attendances,Dental Clinics,All,114560
+2018-01-01,2018,1,Outpatient Attendances,Polyclinics,All,549125
+2018-01-01,2018,1,Outpatient Attendances,Specialist Outpatient Clinics,All,461966
+2018-02-01,2018,2,Day Surgeries,Day Surgeries,All,23257
+2018-02-01,2018,2,Hospital Admissions,Acute Hospitals,Non-Public,9447
+2018-02-01,2018,2,Hospital Admissions,Acute Hospitals,Public,33739
+2018-02-01,2018,2,Hospital Admissions,Community Hospitals,Non-Public,754
+2018-02-01,2018,2,Hospital Admissions,Community Hospitals,Public,610
+2018-02-01,2018,2,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2018-02-01,2018,2,Hospital Admissions,Psychiatric Hospitals,Public,731
+2018-02-01,2018,2,Outpatient Attendances,Accident & Emergency Departments,All,77749
+2018-02-01,2018,2,Outpatient Attendances,Dental Clinics,All,93860
+2018-02-01,2018,2,Outpatient Attendances,Polyclinics,All,452081
+2018-02-01,2018,2,Outpatient Attendances,Specialist Outpatient Clinics,All,372175
+2018-03-01,2018,3,Day Surgeries,Day Surgeries,All,29755
+2018-03-01,2018,3,Hospital Admissions,Acute Hospitals,Non-Public,11607
+2018-03-01,2018,3,Hospital Admissions,Acute Hospitals,Public,38890
+2018-03-01,2018,3,Hospital Admissions,Community Hospitals,Non-Public,819
+2018-03-01,2018,3,Hospital Admissions,Community Hospitals,Public,650
+2018-03-01,2018,3,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2018-03-01,2018,3,Hospital Admissions,Psychiatric Hospitals,Public,805
+2018-03-01,2018,3,Outpatient Attendances,Accident & Emergency Departments,All,83943
+2018-03-01,2018,3,Outpatient Attendances,Dental Clinics,All,97520
+2018-03-01,2018,3,Outpatient Attendances,Polyclinics,All,534902
+2018-03-01,2018,3,Outpatient Attendances,Specialist Outpatient Clinics,All,430707
+2018-04-01,2018,4,Day Surgeries,Day Surgeries,All,30114
+2018-04-01,2018,4,Hospital Admissions,Acute Hospitals,Non-Public,10374
+2018-04-01,2018,4,Hospital Admissions,Acute Hospitals,Public,37007
+2018-04-01,2018,4,Hospital Admissions,Community Hospitals,Non-Public,844
+2018-04-01,2018,4,Hospital Admissions,Community Hospitals,Public,671
+2018-04-01,2018,4,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2018-04-01,2018,4,Hospital Admissions,Psychiatric Hospitals,Public,778
+2018-04-01,2018,4,Outpatient Attendances,Accident & Emergency Departments,All,81997
+2018-04-01,2018,4,Outpatient Attendances,Dental Clinics,All,103591
+2018-04-01,2018,4,Outpatient Attendances,Polyclinics,All,529243
+2018-04-01,2018,4,Outpatient Attendances,Specialist Outpatient Clinics,All,435136
+2018-05-01,2018,5,Day Surgeries,Day Surgeries,All,30381
+2018-05-01,2018,5,Hospital Admissions,Acute Hospitals,Non-Public,11103
+2018-05-01,2018,5,Hospital Admissions,Acute Hospitals,Public,38105
+2018-05-01,2018,5,Hospital Admissions,Community Hospitals,Non-Public,791
+2018-05-01,2018,5,Hospital Admissions,Community Hospitals,Public,678
+2018-05-01,2018,5,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2018-05-01,2018,5,Hospital Admissions,Psychiatric Hospitals,Public,769
+2018-05-01,2018,5,Outpatient Attendances,Accident & Emergency Departments,All,84834
+2018-05-01,2018,5,Outpatient Attendances,Dental Clinics,All,85534
+2018-05-01,2018,5,Outpatient Attendances,Polyclinics,All,534867
+2018-05-01,2018,5,Outpatient Attendances,Specialist Outpatient Clinics,All,437221
+2018-06-01,2018,6,Day Surgeries,Day Surgeries,All,27852
+2018-06-01,2018,6,Hospital Admissions,Acute Hospitals,Non-Public,10414
+2018-06-01,2018,6,Hospital Admissions,Acute Hospitals,Public,36576
+2018-06-01,2018,6,Hospital Admissions,Community Hospitals,Non-Public,839
+2018-06-01,2018,6,Hospital Admissions,Community Hospitals,Public,678
+2018-06-01,2018,6,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2018-06-01,2018,6,Hospital Admissions,Psychiatric Hospitals,Public,755
+2018-06-01,2018,6,Outpatient Attendances,Accident & Emergency Departments,All,78521
+2018-06-01,2018,6,Outpatient Attendances,Dental Clinics,All,70444
+2018-06-01,2018,6,Outpatient Attendances,Polyclinics,All,492052
+2018-06-01,2018,6,Outpatient Attendances,Specialist Outpatient Clinics,All,400151
+2018-07-01,2018,7,Day Surgeries,Day Surgeries,All,32022
+2018-07-01,2018,7,Hospital Admissions,Acute Hospitals,Non-Public,11111
+2018-07-01,2018,7,Hospital Admissions,Acute Hospitals,Public,38506
+2018-07-01,2018,7,Hospital Admissions,Community Hospitals,Non-Public,814
+2018-07-01,2018,7,Hospital Admissions,Community Hospitals,Public,690
+2018-07-01,2018,7,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2018-07-01,2018,7,Hospital Admissions,Psychiatric Hospitals,Public,803
+2018-07-01,2018,7,Outpatient Attendances,Accident & Emergency Departments,All,86044
+2018-07-01,2018,7,Outpatient Attendances,Dental Clinics,All,109867
+2018-07-01,2018,7,Outpatient Attendances,Polyclinics,All,561882
+2018-07-01,2018,7,Outpatient Attendances,Specialist Outpatient Clinics,All,454152
+2018-08-01,2018,8,Day Surgeries,Day Surgeries,All,30282
+2018-08-01,2018,8,Hospital Admissions,Acute Hospitals,Non-Public,10623
+2018-08-01,2018,8,Hospital Admissions,Acute Hospitals,Public,38425
+2018-08-01,2018,8,Hospital Admissions,Community Hospitals,Non-Public,825
+2018-08-01,2018,8,Hospital Admissions,Community Hospitals,Public,730
+2018-08-01,2018,8,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2018-08-01,2018,8,Hospital Admissions,Psychiatric Hospitals,Public,783
+2018-08-01,2018,8,Outpatient Attendances,Accident & Emergency Departments,All,82519
+2018-08-01,2018,8,Outpatient Attendances,Dental Clinics,All,95101
+2018-08-01,2018,8,Outpatient Attendances,Polyclinics,All,536760
+2018-08-01,2018,8,Outpatient Attendances,Specialist Outpatient Clinics,All,440044
+2018-09-01,2018,9,Day Surgeries,Day Surgeries,All,28328
+2018-09-01,2018,9,Hospital Admissions,Acute Hospitals,Non-Public,10641
+2018-09-01,2018,9,Hospital Admissions,Acute Hospitals,Public,37035
+2018-09-01,2018,9,Hospital Admissions,Community Hospitals,Non-Public,799
+2018-09-01,2018,9,Hospital Admissions,Community Hospitals,Public,729
+2018-09-01,2018,9,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2018-09-01,2018,9,Hospital Admissions,Psychiatric Hospitals,Public,724
+2018-09-01,2018,9,Outpatient Attendances,Accident & Emergency Departments,All,79829
+2018-09-01,2018,9,Outpatient Attendances,Dental Clinics,All,88434
+2018-09-01,2018,9,Outpatient Attendances,Polyclinics,All,509057
+2018-09-01,2018,9,Outpatient Attendances,Specialist Outpatient Clinics,All,405620
+2018-10-01,2018,10,Day Surgeries,Day Surgeries,All,33412
+2018-10-01,2018,10,Hospital Admissions,Acute Hospitals,Non-Public,11048
+2018-10-01,2018,10,Hospital Admissions,Acute Hospitals,Public,39692
+2018-10-01,2018,10,Hospital Admissions,Community Hospitals,Non-Public,800
+2018-10-01,2018,10,Hospital Admissions,Community Hospitals,Public,782
+2018-10-01,2018,10,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2018-10-01,2018,10,Hospital Admissions,Psychiatric Hospitals,Public,770
+2018-10-01,2018,10,Outpatient Attendances,Accident & Emergency Departments,All,85043
+2018-10-01,2018,10,Outpatient Attendances,Dental Clinics,All,90306
+2018-10-01,2018,10,Outpatient Attendances,Polyclinics,All,570757
+2018-10-01,2018,10,Outpatient Attendances,Specialist Outpatient Clinics,All,469400
+2018-11-01,2018,11,Day Surgeries,Day Surgeries,All,29384
+2018-11-01,2018,11,Hospital Admissions,Acute Hospitals,Non-Public,11019
+2018-11-01,2018,11,Hospital Admissions,Acute Hospitals,Public,39293
+2018-11-01,2018,11,Hospital Admissions,Community Hospitals,Non-Public,786
+2018-11-01,2018,11,Hospital Admissions,Community Hospitals,Public,696
+2018-11-01,2018,11,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2018-11-01,2018,11,Hospital Admissions,Psychiatric Hospitals,Public,787
+2018-11-01,2018,11,Outpatient Attendances,Accident & Emergency Departments,All,85384
+2018-11-01,2018,11,Outpatient Attendances,Dental Clinics,All,76946
+2018-11-01,2018,11,Outpatient Attendances,Polyclinics,All,539107
+2018-11-01,2018,11,Outpatient Attendances,Specialist Outpatient Clinics,All,427439
+2018-12-01,2018,12,Day Surgeries,Day Surgeries,All,25270
+2018-12-01,2018,12,Hospital Admissions,Acute Hospitals,Non-Public,10744
+2018-12-01,2018,12,Hospital Admissions,Acute Hospitals,Public,39704
+2018-12-01,2018,12,Hospital Admissions,Community Hospitals,Non-Public,795
+2018-12-01,2018,12,Hospital Admissions,Community Hospitals,Public,776
+2018-12-01,2018,12,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2018-12-01,2018,12,Hospital Admissions,Psychiatric Hospitals,Public,714
+2018-12-01,2018,12,Outpatient Attendances,Accident & Emergency Departments,All,91303
+2018-12-01,2018,12,Outpatient Attendances,Dental Clinics,All,57506
+2018-12-01,2018,12,Outpatient Attendances,Polyclinics,All,513981
+2018-12-01,2018,12,Outpatient Attendances,Specialist Outpatient Clinics,All,372077
+2019-01-01,2019,1,Day Surgeries,Day Surgeries,All,32558
+2019-01-01,2019,1,Hospital Admissions,Acute Hospitals,Non-Public,11175
+2019-01-01,2019,1,Hospital Admissions,Acute Hospitals,Public,40228
+2019-01-01,2019,1,Hospital Admissions,Community Hospitals,Non-Public,819
+2019-01-01,2019,1,Hospital Admissions,Community Hospitals,Public,790
+2019-01-01,2019,1,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2019-01-01,2019,1,Hospital Admissions,Psychiatric Hospitals,Public,716
+2019-01-01,2019,1,Outpatient Attendances,Accident & Emergency Departments,All,90869
+2019-01-01,2019,1,Outpatient Attendances,Dental Clinics,All,115740
+2019-01-01,2019,1,Outpatient Attendances,Polyclinics,All,578689
+2019-01-01,2019,1,Outpatient Attendances,Specialist Outpatient Clinics,All,484944
+2019-02-01,2019,2,Day Surgeries,Day Surgeries,All,25554
+2019-02-01,2019,2,Hospital Admissions,Acute Hospitals,Non-Public,9432
+2019-02-01,2019,2,Hospital Admissions,Acute Hospitals,Public,35050
+2019-02-01,2019,2,Hospital Admissions,Community Hospitals,Non-Public,656
+2019-02-01,2019,2,Hospital Admissions,Community Hospitals,Public,687
+2019-02-01,2019,2,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2019-02-01,2019,2,Hospital Admissions,Psychiatric Hospitals,Public,674
+2019-02-01,2019,2,Outpatient Attendances,Accident & Emergency Departments,All,82072
+2019-02-01,2019,2,Outpatient Attendances,Dental Clinics,All,90480
+2019-02-01,2019,2,Outpatient Attendances,Polyclinics,All,464045
+2019-02-01,2019,2,Outpatient Attendances,Specialist Outpatient Clinics,All,369739
+2019-03-01,2019,3,Day Surgeries,Day Surgeries,All,31694
+2019-03-01,2019,3,Hospital Admissions,Acute Hospitals,Non-Public,11803
+2019-03-01,2019,3,Hospital Admissions,Acute Hospitals,Public,40859
+2019-03-01,2019,3,Hospital Admissions,Community Hospitals,Non-Public,879
+2019-03-01,2019,3,Hospital Admissions,Community Hospitals,Public,890
+2019-03-01,2019,3,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2019-03-01,2019,3,Hospital Admissions,Psychiatric Hospitals,Public,801
+2019-03-01,2019,3,Outpatient Attendances,Accident & Emergency Departments,All,89670
+2019-03-01,2019,3,Outpatient Attendances,Dental Clinics,All,96062
+2019-03-01,2019,3,Outpatient Attendances,Polyclinics,All,558840
+2019-03-01,2019,3,Outpatient Attendances,Specialist Outpatient Clinics,All,438677
+2019-04-01,2019,4,Day Surgeries,Day Surgeries,All,32236
+2019-04-01,2019,4,Hospital Admissions,Acute Hospitals,Non-Public,10814
+2019-04-01,2019,4,Hospital Admissions,Acute Hospitals,Public,39765
+2019-04-01,2019,4,Hospital Admissions,Community Hospitals,Non-Public,854
+2019-04-01,2019,4,Hospital Admissions,Community Hospitals,Public,822
+2019-04-01,2019,4,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2019-04-01,2019,4,Hospital Admissions,Psychiatric Hospitals,Public,847
+2019-04-01,2019,4,Outpatient Attendances,Accident & Emergency Departments,All,88534
+2019-04-01,2019,4,Outpatient Attendances,Dental Clinics,All,104342
+2019-04-01,2019,4,Outpatient Attendances,Polyclinics,All,578277
+2019-04-01,2019,4,Outpatient Attendances,Specialist Outpatient Clinics,All,457373
+2019-05-01,2019,5,Day Surgeries,Day Surgeries,All,32111
+2019-05-01,2019,5,Hospital Admissions,Acute Hospitals,Non-Public,11486
+2019-05-01,2019,5,Hospital Admissions,Acute Hospitals,Public,41298
+2019-05-01,2019,5,Hospital Admissions,Community Hospitals,Non-Public,817
+2019-05-01,2019,5,Hospital Admissions,Community Hospitals,Public,879
+2019-05-01,2019,5,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2019-05-01,2019,5,Hospital Admissions,Psychiatric Hospitals,Public,783
+2019-05-01,2019,5,Outpatient Attendances,Accident & Emergency Departments,All,92618
+2019-05-01,2019,5,Outpatient Attendances,Dental Clinics,All,92400
+2019-05-01,2019,5,Outpatient Attendances,Polyclinics,All,594199
+2019-05-01,2019,5,Outpatient Attendances,Specialist Outpatient Clinics,All,454249
+2019-06-01,2019,6,Day Surgeries,Day Surgeries,All,27821
+2019-06-01,2019,6,Hospital Admissions,Acute Hospitals,Non-Public,10963
+2019-06-01,2019,6,Hospital Admissions,Acute Hospitals,Public,39314
+2019-06-01,2019,6,Hospital Admissions,Community Hospitals,Non-Public,790
+2019-06-01,2019,6,Hospital Admissions,Community Hospitals,Public,811
+2019-06-01,2019,6,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2019-06-01,2019,6,Hospital Admissions,Psychiatric Hospitals,Public,715
+2019-06-01,2019,6,Outpatient Attendances,Accident & Emergency Departments,All,89350
+2019-06-01,2019,6,Outpatient Attendances,Dental Clinics,All,60432
+2019-06-01,2019,6,Outpatient Attendances,Polyclinics,All,528547
+2019-06-01,2019,6,Outpatient Attendances,Specialist Outpatient Clinics,All,389316
+2019-07-01,2019,7,Day Surgeries,Day Surgeries,All,36206
+2019-07-01,2019,7,Hospital Admissions,Acute Hospitals,Non-Public,11968
+2019-07-01,2019,7,Hospital Admissions,Acute Hospitals,Public,43025
+2019-07-01,2019,7,Hospital Admissions,Community Hospitals,Non-Public,865
+2019-07-01,2019,7,Hospital Admissions,Community Hospitals,Public,915
+2019-07-01,2019,7,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2019-07-01,2019,7,Hospital Admissions,Psychiatric Hospitals,Public,767
+2019-07-01,2019,7,Outpatient Attendances,Accident & Emergency Departments,All,98385
+2019-07-01,2019,7,Outpatient Attendances,Dental Clinics,All,111689
+2019-07-01,2019,7,Outpatient Attendances,Polyclinics,All,627174
+2019-07-01,2019,7,Outpatient Attendances,Specialist Outpatient Clinics,All,501648
+2019-08-01,2019,8,Day Surgeries,Day Surgeries,All,31225
+2019-08-01,2019,8,Hospital Admissions,Acute Hospitals,Non-Public,11295
+2019-08-01,2019,8,Hospital Admissions,Acute Hospitals,Public,40814
+2019-08-01,2019,8,Hospital Admissions,Community Hospitals,Non-Public,831
+2019-08-01,2019,8,Hospital Admissions,Community Hospitals,Public,898
+2019-08-01,2019,8,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2019-08-01,2019,8,Hospital Admissions,Psychiatric Hospitals,Public,815
+2019-08-01,2019,8,Outpatient Attendances,Accident & Emergency Departments,All,90698
+2019-08-01,2019,8,Outpatient Attendances,Dental Clinics,All,96923
+2019-08-01,2019,8,Outpatient Attendances,Polyclinics,All,552486
+2019-08-01,2019,8,Outpatient Attendances,Specialist Outpatient Clinics,All,439911
+2019-09-01,2019,9,Day Surgeries,Day Surgeries,All,32181
+2019-09-01,2019,9,Hospital Admissions,Acute Hospitals,Non-Public,11220
+2019-09-01,2019,9,Hospital Admissions,Acute Hospitals,Public,38986
+2019-09-01,2019,9,Hospital Admissions,Community Hospitals,Non-Public,802
+2019-09-01,2019,9,Hospital Admissions,Community Hospitals,Public,849
+2019-09-01,2019,9,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2019-09-01,2019,9,Hospital Admissions,Psychiatric Hospitals,Public,764
+2019-09-01,2019,9,Outpatient Attendances,Accident & Emergency Departments,All,84906
+2019-09-01,2019,9,Outpatient Attendances,Dental Clinics,All,86970
+2019-09-01,2019,9,Outpatient Attendances,Polyclinics,All,536578
+2019-09-01,2019,9,Outpatient Attendances,Specialist Outpatient Clinics,All,436987
+2019-10-01,2019,10,Day Surgeries,Day Surgeries,All,34110
+2019-10-01,2019,10,Hospital Admissions,Acute Hospitals,Non-Public,11285
+2019-10-01,2019,10,Hospital Admissions,Acute Hospitals,Public,41375
+2019-10-01,2019,10,Hospital Admissions,Community Hospitals,Non-Public,853
+2019-10-01,2019,10,Hospital Admissions,Community Hospitals,Public,873
+2019-10-01,2019,10,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2019-10-01,2019,10,Hospital Admissions,Psychiatric Hospitals,Public,789
+2019-10-01,2019,10,Outpatient Attendances,Accident & Emergency Departments,All,88782
+2019-10-01,2019,10,Outpatient Attendances,Dental Clinics,All,84173
+2019-10-01,2019,10,Outpatient Attendances,Polyclinics,All,571812
+2019-10-01,2019,10,Outpatient Attendances,Specialist Outpatient Clinics,All,464595
+2019-11-01,2019,11,Day Surgeries,Day Surgeries,All,31885
+2019-11-01,2019,11,Hospital Admissions,Acute Hospitals,Non-Public,11493
+2019-11-01,2019,11,Hospital Admissions,Acute Hospitals,Public,41316
+2019-11-01,2019,11,Hospital Admissions,Community Hospitals,Non-Public,824
+2019-11-01,2019,11,Hospital Admissions,Community Hospitals,Public,858
+2019-11-01,2019,11,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2019-11-01,2019,11,Hospital Admissions,Psychiatric Hospitals,Public,786
+2019-11-01,2019,11,Outpatient Attendances,Accident & Emergency Departments,All,88545
+2019-11-01,2019,11,Outpatient Attendances,Dental Clinics,All,74011
+2019-11-01,2019,11,Outpatient Attendances,Polyclinics,All,564421
+2019-11-01,2019,11,Outpatient Attendances,Specialist Outpatient Clinics,All,445401
+2019-12-01,2019,12,Day Surgeries,Day Surgeries,All,28555
+2019-12-01,2019,12,Hospital Admissions,Acute Hospitals,Non-Public,11263
+2019-12-01,2019,12,Hospital Admissions,Acute Hospitals,Public,41909
+2019-12-01,2019,12,Hospital Admissions,Community Hospitals,Non-Public,838
+2019-12-01,2019,12,Hospital Admissions,Community Hospitals,Public,943
+2019-12-01,2019,12,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2019-12-01,2019,12,Hospital Admissions,Psychiatric Hospitals,Public,777
+2019-12-01,2019,12,Outpatient Attendances,Accident & Emergency Departments,All,95867
+2019-12-01,2019,12,Outpatient Attendances,Dental Clinics,All,57586
+2019-12-01,2019,12,Outpatient Attendances,Polyclinics,All,536227
+2019-12-01,2019,12,Outpatient Attendances,Specialist Outpatient Clinics,All,403128
+2020-01-01,2020,1,Day Surgeries,Day Surgeries,All,29284
+2020-01-01,2020,1,Hospital Admissions,Acute Hospitals,Non-Public,10734
+2020-01-01,2020,1,Hospital Admissions,Acute Hospitals,Public,41727
+2020-01-01,2020,1,Hospital Admissions,Community Hospitals,Non-Public,811
+2020-01-01,2020,1,Hospital Admissions,Community Hospitals,Public,946
+2020-01-01,2020,1,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2020-01-01,2020,1,Hospital Admissions,Psychiatric Hospitals,Public,797
+2020-01-01,2020,1,Outpatient Attendances,Accident & Emergency Departments,All,98333
+2020-01-01,2020,1,Outpatient Attendances,Dental Clinics,All,99351
+2020-01-01,2020,1,Outpatient Attendances,Polyclinics,All,551852
+2020-01-01,2020,1,Outpatient Attendances,Specialist Outpatient Clinics,All,436025
+2020-02-01,2020,2,Day Surgeries,Day Surgeries,All,21638
+2020-02-01,2020,2,Hospital Admissions,Acute Hospitals,Non-Public,9179
+2020-02-01,2020,2,Hospital Admissions,Acute Hospitals,Public,33880
+2020-02-01,2020,2,Hospital Admissions,Community Hospitals,Non-Public,763
+2020-02-01,2020,2,Hospital Admissions,Community Hospitals,Public,872
+2020-02-01,2020,2,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2020-02-01,2020,2,Hospital Admissions,Psychiatric Hospitals,Public,732
+2020-02-01,2020,2,Outpatient Attendances,Accident & Emergency Departments,All,74377
+2020-02-01,2020,2,Outpatient Attendances,Dental Clinics,All,67207
+2020-02-01,2020,2,Outpatient Attendances,Polyclinics,All,490437
+2020-02-01,2020,2,Outpatient Attendances,Specialist Outpatient Clinics,All,306789
+2020-03-01,2020,3,Day Surgeries,Day Surgeries,All,23426
+2020-03-01,2020,3,Hospital Admissions,Acute Hospitals,Non-Public,8850
+2020-03-01,2020,3,Hospital Admissions,Acute Hospitals,Public,35531
+2020-03-01,2020,3,Hospital Admissions,Community Hospitals,Non-Public,755
+2020-03-01,2020,3,Hospital Admissions,Community Hospitals,Public,850
+2020-03-01,2020,3,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2020-03-01,2020,3,Hospital Admissions,Psychiatric Hospitals,Public,710
+2020-03-01,2020,3,Outpatient Attendances,Accident & Emergency Departments,All,88121
+2020-03-01,2020,3,Outpatient Attendances,Dental Clinics,All,60299
+2020-03-01,2020,3,Outpatient Attendances,Polyclinics,All,500678
+2020-03-01,2020,3,Outpatient Attendances,Specialist Outpatient Clinics,All,332189
+2020-04-01,2020,4,Day Surgeries,Day Surgeries,All,13730
+2020-04-01,2020,4,Hospital Admissions,Acute Hospitals,Non-Public,7148
+2020-04-01,2020,4,Hospital Admissions,Acute Hospitals,Public,34439
+2020-04-01,2020,4,Hospital Admissions,Community Hospitals,Non-Public,925
+2020-04-01,2020,4,Hospital Admissions,Community Hospitals,Public,1014
+2020-04-01,2020,4,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2020-04-01,2020,4,Hospital Admissions,Psychiatric Hospitals,Public,703
+2020-04-01,2020,4,Outpatient Attendances,Accident & Emergency Departments,All,69841
+2020-04-01,2020,4,Outpatient Attendances,Dental Clinics,All,19635
+2020-04-01,2020,4,Outpatient Attendances,Polyclinics,All,373236
+2020-04-01,2020,4,Outpatient Attendances,Specialist Outpatient Clinics,All,221367
+2020-05-01,2020,5,Day Surgeries,Day Surgeries,All,10393
+2020-05-01,2020,5,Hospital Admissions,Acute Hospitals,Non-Public,7773
+2020-05-01,2020,5,Hospital Admissions,Acute Hospitals,Public,35542
+2020-05-01,2020,5,Hospital Admissions,Community Hospitals,Non-Public,1045
+2020-05-01,2020,5,Hospital Admissions,Community Hospitals,Public,1041
+2020-05-01,2020,5,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2020-05-01,2020,5,Hospital Admissions,Psychiatric Hospitals,Public,476
+2020-05-01,2020,5,Outpatient Attendances,Accident & Emergency Departments,All,62962
+2020-05-01,2020,5,Outpatient Attendances,Dental Clinics,All,8157
+2020-05-01,2020,5,Outpatient Attendances,Polyclinics,All,372042
+2020-05-01,2020,5,Outpatient Attendances,Specialist Outpatient Clinics,All,187756
+2020-06-01,2020,6,Day Surgeries,Day Surgeries,All,20815
+2020-06-01,2020,6,Hospital Admissions,Acute Hospitals,Non-Public,8841
+2020-06-01,2020,6,Hospital Admissions,Acute Hospitals,Public,34955
+2020-06-01,2020,6,Hospital Admissions,Community Hospitals,Non-Public,792
+2020-06-01,2020,6,Hospital Admissions,Community Hospitals,Public,1017
+2020-06-01,2020,6,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2020-06-01,2020,6,Hospital Admissions,Psychiatric Hospitals,Public,713
+2020-06-01,2020,6,Outpatient Attendances,Accident & Emergency Departments,All,67500
+2020-06-01,2020,6,Outpatient Attendances,Dental Clinics,All,34812
+2020-06-01,2020,6,Outpatient Attendances,Polyclinics,All,505714
+2020-06-01,2020,6,Outpatient Attendances,Specialist Outpatient Clinics,All,324034
+2020-07-01,2020,7,Day Surgeries,Day Surgeries,All,27796
+2020-07-01,2020,7,Hospital Admissions,Acute Hospitals,Non-Public,9678
+2020-07-01,2020,7,Hospital Admissions,Acute Hospitals,Public,38614
+2020-07-01,2020,7,Hospital Admissions,Community Hospitals,Non-Public,869
+2020-07-01,2020,7,Hospital Admissions,Community Hospitals,Public,968
+2020-07-01,2020,7,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2020-07-01,2020,7,Hospital Admissions,Psychiatric Hospitals,Public,730
+2020-07-01,2020,7,Outpatient Attendances,Accident & Emergency Departments,All,72545
+2020-07-01,2020,7,Outpatient Attendances,Dental Clinics,All,53779
+2020-07-01,2020,7,Outpatient Attendances,Polyclinics,All,547490
+2020-07-01,2020,7,Outpatient Attendances,Specialist Outpatient Clinics,All,413647
+2020-08-01,2020,8,Day Surgeries,Day Surgeries,All,29299
+2020-08-01,2020,8,Hospital Admissions,Acute Hospitals,Non-Public,9270
+2020-08-01,2020,8,Hospital Admissions,Acute Hospitals,Public,37528
+2020-08-01,2020,8,Hospital Admissions,Community Hospitals,Non-Public,803
+2020-08-01,2020,8,Hospital Admissions,Community Hospitals,Public,1007
+2020-08-01,2020,8,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2020-08-01,2020,8,Hospital Admissions,Psychiatric Hospitals,Public,640
+2020-08-01,2020,8,Outpatient Attendances,Accident & Emergency Departments,All,74055
+2020-08-01,2020,8,Outpatient Attendances,Dental Clinics,All,64523
+2020-08-01,2020,8,Outpatient Attendances,Polyclinics,All,529573
+2020-08-01,2020,8,Outpatient Attendances,Specialist Outpatient Clinics,All,417996
+2020-09-01,2020,9,Day Surgeries,Day Surgeries,All,33755
+2020-09-01,2020,9,Hospital Admissions,Acute Hospitals,Non-Public,9408
+2020-09-01,2020,9,Hospital Admissions,Acute Hospitals,Public,37262
+2020-09-01,2020,9,Hospital Admissions,Community Hospitals,Non-Public,759
+2020-09-01,2020,9,Hospital Admissions,Community Hospitals,Public,794
+2020-09-01,2020,9,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2020-09-01,2020,9,Hospital Admissions,Psychiatric Hospitals,Public,763
+2020-09-01,2020,9,Outpatient Attendances,Accident & Emergency Departments,All,71161
+2020-09-01,2020,9,Outpatient Attendances,Dental Clinics,All,80135
+2020-09-01,2020,9,Outpatient Attendances,Polyclinics,All,543203
+2020-09-01,2020,9,Outpatient Attendances,Specialist Outpatient Clinics,All,461158
+2020-10-01,2020,10,Day Surgeries,Day Surgeries,All,35436
+2020-10-01,2020,10,Hospital Admissions,Acute Hospitals,Non-Public,10244
+2020-10-01,2020,10,Hospital Admissions,Acute Hospitals,Public,39528
+2020-10-01,2020,10,Hospital Admissions,Community Hospitals,Non-Public,717
+2020-10-01,2020,10,Hospital Admissions,Community Hospitals,Public,933
+2020-10-01,2020,10,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2020-10-01,2020,10,Hospital Admissions,Psychiatric Hospitals,Public,740
+2020-10-01,2020,10,Outpatient Attendances,Accident & Emergency Departments,All,73248
+2020-10-01,2020,10,Outpatient Attendances,Dental Clinics,All,83670
+2020-10-01,2020,10,Outpatient Attendances,Polyclinics,All,548857
+2020-10-01,2020,10,Outpatient Attendances,Specialist Outpatient Clinics,All,469204
+2020-11-01,2020,11,Day Surgeries,Day Surgeries,All,34649
+2020-11-01,2020,11,Hospital Admissions,Acute Hospitals,Non-Public,9607
+2020-11-01,2020,11,Hospital Admissions,Acute Hospitals,Public,36696
+2020-11-01,2020,11,Hospital Admissions,Community Hospitals,Non-Public,693
+2020-11-01,2020,11,Hospital Admissions,Community Hospitals,Public,819
+2020-11-01,2020,11,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2020-11-01,2020,11,Hospital Admissions,Psychiatric Hospitals,Public,665
+2020-11-01,2020,11,Outpatient Attendances,Accident & Emergency Departments,All,70950
+2020-11-01,2020,11,Outpatient Attendances,Dental Clinics,All,74465
+2020-11-01,2020,11,Outpatient Attendances,Polyclinics,All,500266
+2020-11-01,2020,11,Outpatient Attendances,Specialist Outpatient Clinics,All,457700
+2020-12-01,2020,12,Day Surgeries,Day Surgeries,All,33262
+2020-12-01,2020,12,Hospital Admissions,Acute Hospitals,Non-Public,10916
+2020-12-01,2020,12,Hospital Admissions,Acute Hospitals,Public,39161
+2020-12-01,2020,12,Hospital Admissions,Community Hospitals,Non-Public,747
+2020-12-01,2020,12,Hospital Admissions,Community Hospitals,Public,912
+2020-12-01,2020,12,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2020-12-01,2020,12,Hospital Admissions,Psychiatric Hospitals,Public,757
+2020-12-01,2020,12,Outpatient Attendances,Accident & Emergency Departments,All,74309
+2020-12-01,2020,12,Outpatient Attendances,Dental Clinics,All,55891
+2020-12-01,2020,12,Outpatient Attendances,Polyclinics,All,529328
+2020-12-01,2020,12,Outpatient Attendances,Specialist Outpatient Clinics,All,450783
+2021-01-01,2021,1,Day Surgeries,Day Surgeries,All,34218
+2021-01-01,2021,1,Hospital Admissions,Acute Hospitals,Non-Public,9459
+2021-01-01,2021,1,Hospital Admissions,Acute Hospitals,Public,37429
+2021-01-01,2021,1,Hospital Admissions,Community Hospitals,Non-Public,692
+2021-01-01,2021,1,Hospital Admissions,Community Hospitals,Public,882
+2021-01-01,2021,1,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2021-01-01,2021,1,Hospital Admissions,Psychiatric Hospitals,Public,657
+2021-01-01,2021,1,Outpatient Attendances,Accident & Emergency Departments,All,76807
+2021-01-01,2021,1,Outpatient Attendances,Dental Clinics,All,94053
+2021-01-01,2021,1,Outpatient Attendances,Polyclinics,All,531038
+2021-01-01,2021,1,Outpatient Attendances,Specialist Outpatient Clinics,All,459379
+2021-02-01,2021,2,Day Surgeries,Day Surgeries,All,29367
+2021-02-01,2021,2,Hospital Admissions,Acute Hospitals,Non-Public,9193
+2021-02-01,2021,2,Hospital Admissions,Acute Hospitals,Public,34146
+2021-02-01,2021,2,Hospital Admissions,Community Hospitals,Non-Public,651
+2021-02-01,2021,2,Hospital Admissions,Community Hospitals,Public,926
+2021-02-01,2021,2,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2021-02-01,2021,2,Hospital Admissions,Psychiatric Hospitals,Public,668
+2021-02-01,2021,2,Outpatient Attendances,Accident & Emergency Departments,All,72215
+2021-02-01,2021,2,Outpatient Attendances,Dental Clinics,All,86027
+2021-02-01,2021,2,Outpatient Attendances,Polyclinics,All,465781
+2021-02-01,2021,2,Outpatient Attendances,Specialist Outpatient Clinics,All,403217
+2021-03-01,2021,3,Day Surgeries,Day Surgeries,All,39917
+2021-03-01,2021,3,Hospital Admissions,Acute Hospitals,Non-Public,10840
+2021-03-01,2021,3,Hospital Admissions,Acute Hospitals,Public,40623
+2021-03-01,2021,3,Hospital Admissions,Community Hospitals,Non-Public,697
+2021-03-01,2021,3,Hospital Admissions,Community Hospitals,Public,1014
+2021-03-01,2021,3,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2021-03-01,2021,3,Hospital Admissions,Psychiatric Hospitals,Public,791
+2021-03-01,2021,3,Outpatient Attendances,Accident & Emergency Departments,All,82693
+2021-03-01,2021,3,Outpatient Attendances,Dental Clinics,All,100280
+2021-03-01,2021,3,Outpatient Attendances,Polyclinics,All,581035
+2021-03-01,2021,3,Outpatient Attendances,Specialist Outpatient Clinics,All,513912
+2021-04-01,2021,4,Day Surgeries,Day Surgeries,All,36048
+2021-04-01,2021,4,Hospital Admissions,Acute Hospitals,Non-Public,10024
+2021-04-01,2021,4,Hospital Admissions,Acute Hospitals,Public,39387
+2021-04-01,2021,4,Hospital Admissions,Community Hospitals,Non-Public,672
+2021-04-01,2021,4,Hospital Admissions,Community Hospitals,Public,1096
+2021-04-01,2021,4,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2021-04-01,2021,4,Hospital Admissions,Psychiatric Hospitals,Public,781
+2021-04-01,2021,4,Outpatient Attendances,Accident & Emergency Departments,All,82123
+2021-04-01,2021,4,Outpatient Attendances,Dental Clinics,All,98293
+2021-04-01,2021,4,Outpatient Attendances,Polyclinics,All,527487
+2021-04-01,2021,4,Outpatient Attendances,Specialist Outpatient Clinics,All,463916
+2021-05-01,2021,5,Day Surgeries,Day Surgeries,All,25113
+2021-05-01,2021,5,Hospital Admissions,Acute Hospitals,Non-Public,9474
+2021-05-01,2021,5,Hospital Admissions,Acute Hospitals,Public,34090
+2021-05-01,2021,5,Hospital Admissions,Community Hospitals,Non-Public,672
+2021-05-01,2021,5,Hospital Admissions,Community Hospitals,Public,1080
+2021-05-01,2021,5,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2021-05-01,2021,5,Hospital Admissions,Psychiatric Hospitals,Public,630
+2021-05-01,2021,5,Outpatient Attendances,Accident & Emergency Departments,All,69046
+2021-05-01,2021,5,Outpatient Attendances,Dental Clinics,All,56314
+2021-05-01,2021,5,Outpatient Attendances,Polyclinics,All,427460
+2021-05-01,2021,5,Outpatient Attendances,Specialist Outpatient Clinics,All,320632
+2021-06-01,2021,6,Day Surgeries,Day Surgeries,All,33035
+2021-06-01,2021,6,Hospital Admissions,Acute Hospitals,Non-Public,8692
+2021-06-01,2021,6,Hospital Admissions,Acute Hospitals,Public,35829
+2021-06-01,2021,6,Hospital Admissions,Community Hospitals,Non-Public,651
+2021-06-01,2021,6,Hospital Admissions,Community Hospitals,Public,865
+2021-06-01,2021,6,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2021-06-01,2021,6,Hospital Admissions,Psychiatric Hospitals,Public,666
+2021-06-01,2021,6,Outpatient Attendances,Accident & Emergency Departments,All,66788
+2021-06-01,2021,6,Outpatient Attendances,Dental Clinics,All,50652
+2021-06-01,2021,6,Outpatient Attendances,Polyclinics,All,515889
+2021-06-01,2021,6,Outpatient Attendances,Specialist Outpatient Clinics,All,417150
+2021-07-01,2021,7,Day Surgeries,Day Surgeries,All,34484
+2021-07-01,2021,7,Hospital Admissions,Acute Hospitals,Non-Public,9603
+2021-07-01,2021,7,Hospital Admissions,Acute Hospitals,Public,40081
+2021-07-01,2021,7,Hospital Admissions,Community Hospitals,Non-Public,669
+2021-07-01,2021,7,Hospital Admissions,Community Hospitals,Public,1018
+2021-07-01,2021,7,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2021-07-01,2021,7,Hospital Admissions,Psychiatric Hospitals,Public,689
+2021-07-01,2021,7,Outpatient Attendances,Accident & Emergency Departments,All,78919
+2021-07-01,2021,7,Outpatient Attendances,Dental Clinics,All,63576
+2021-07-01,2021,7,Outpatient Attendances,Polyclinics,All,537257
+2021-07-01,2021,7,Outpatient Attendances,Specialist Outpatient Clinics,All,456655
+2021-08-01,2021,8,Day Surgeries,Day Surgeries,All,34815
+2021-08-01,2021,8,Hospital Admissions,Acute Hospitals,Non-Public,9023
+2021-08-01,2021,8,Hospital Admissions,Acute Hospitals,Public,38034
+2021-08-01,2021,8,Hospital Admissions,Community Hospitals,Non-Public,699
+2021-08-01,2021,8,Hospital Admissions,Community Hospitals,Public,1025
+2021-08-01,2021,8,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2021-08-01,2021,8,Hospital Admissions,Psychiatric Hospitals,Public,647
+2021-08-01,2021,8,Outpatient Attendances,Accident & Emergency Departments,All,75684
+2021-08-01,2021,8,Outpatient Attendances,Dental Clinics,All,85437
+2021-08-01,2021,8,Outpatient Attendances,Polyclinics,All,522139
+2021-08-01,2021,8,Outpatient Attendances,Specialist Outpatient Clinics,All,461350
+2021-09-01,2021,9,Day Surgeries,Day Surgeries,All,34420
+2021-09-01,2021,9,Hospital Admissions,Acute Hospitals,Non-Public,9561
+2021-09-01,2021,9,Hospital Admissions,Acute Hospitals,Public,39735
+2021-09-01,2021,9,Hospital Admissions,Community Hospitals,Non-Public,667
+2021-09-01,2021,9,Hospital Admissions,Community Hospitals,Public,1218
+2021-09-01,2021,9,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2021-09-01,2021,9,Hospital Admissions,Psychiatric Hospitals,Public,695
+2021-09-01,2021,9,Outpatient Attendances,Accident & Emergency Departments,All,72097
+2021-09-01,2021,9,Outpatient Attendances,Dental Clinics,All,81262
+2021-09-01,2021,9,Outpatient Attendances,Polyclinics,All,526768
+2021-09-01,2021,9,Outpatient Attendances,Specialist Outpatient Clinics,All,449154
+2021-10-01,2021,10,Day Surgeries,Day Surgeries,All,30485
+2021-10-01,2021,10,Hospital Admissions,Acute Hospitals,Non-Public,9605
+2021-10-01,2021,10,Hospital Admissions,Acute Hospitals,Public,37675
+2021-10-01,2021,10,Hospital Admissions,Community Hospitals,Non-Public,740
+2021-10-01,2021,10,Hospital Admissions,Community Hospitals,Public,1548
+2021-10-01,2021,10,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2021-10-01,2021,10,Hospital Admissions,Psychiatric Hospitals,Public,694
+2021-10-01,2021,10,Outpatient Attendances,Accident & Emergency Departments,All,71502
+2021-10-01,2021,10,Outpatient Attendances,Dental Clinics,All,74442
+2021-10-01,2021,10,Outpatient Attendances,Polyclinics,All,498174
+2021-10-01,2021,10,Outpatient Attendances,Specialist Outpatient Clinics,All,402821
+2021-11-01,2021,11,Day Surgeries,Day Surgeries,All,32474
+2021-11-01,2021,11,Hospital Admissions,Acute Hospitals,Non-Public,9204
+2021-11-01,2021,11,Hospital Admissions,Acute Hospitals,Public,37787
+2021-11-01,2021,11,Hospital Admissions,Community Hospitals,Non-Public,736
+2021-11-01,2021,11,Hospital Admissions,Community Hospitals,Public,1370
+2021-11-01,2021,11,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2021-11-01,2021,11,Hospital Admissions,Psychiatric Hospitals,Public,630
+2021-11-01,2021,11,Outpatient Attendances,Accident & Emergency Departments,All,71186
+2021-11-01,2021,11,Outpatient Attendances,Dental Clinics,All,75542
+2021-11-01,2021,11,Outpatient Attendances,Polyclinics,All,519148
+2021-11-01,2021,11,Outpatient Attendances,Specialist Outpatient Clinics,All,433965
+2021-12-01,2021,12,Day Surgeries,Day Surgeries,All,32471
+2021-12-01,2021,12,Hospital Admissions,Acute Hospitals,Non-Public,9185
+2021-12-01,2021,12,Hospital Admissions,Acute Hospitals,Public,38111
+2021-12-01,2021,12,Hospital Admissions,Community Hospitals,Non-Public,662
+2021-12-01,2021,12,Hospital Admissions,Community Hospitals,Public,957
+2021-12-01,2021,12,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2021-12-01,2021,12,Hospital Admissions,Psychiatric Hospitals,Public,678
+2021-12-01,2021,12,Outpatient Attendances,Accident & Emergency Departments,All,70027
+2021-12-01,2021,12,Outpatient Attendances,Dental Clinics,All,60148
+2021-12-01,2021,12,Outpatient Attendances,Polyclinics,All,548534
+2021-12-01,2021,12,Outpatient Attendances,Specialist Outpatient Clinics,All,436375
+2022-01-01,2022,1,Day Surgeries,Day Surgeries,All,33272
+2022-01-01,2022,1,Hospital Admissions,Acute Hospitals,Non-Public,9056
+2022-01-01,2022,1,Hospital Admissions,Acute Hospitals,Public,38957
+2022-01-01,2022,1,Hospital Admissions,Community Hospitals,Non-Public,738
+2022-01-01,2022,1,Hospital Admissions,Community Hospitals,Public,971
+2022-01-01,2022,1,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2022-01-01,2022,1,Hospital Admissions,Psychiatric Hospitals,Public,746
+2022-01-01,2022,1,Outpatient Attendances,Accident & Emergency Departments,All,80536
+2022-01-01,2022,1,Outpatient Attendances,Dental Clinics,All,85967
+2022-01-01,2022,1,Outpatient Attendances,Polyclinics,All,527577
+2022-01-01,2022,1,Outpatient Attendances,Specialist Outpatient Clinics,All,455622
+2022-02-01,2022,2,Day Surgeries,Day Surgeries,All,27679
+2022-02-01,2022,2,Hospital Admissions,Acute Hospitals,Non-Public,8232
+2022-02-01,2022,2,Hospital Admissions,Acute Hospitals,Public,35360
+2022-02-01,2022,2,Hospital Admissions,Community Hospitals,Non-Public,590
+2022-02-01,2022,2,Hospital Admissions,Community Hospitals,Public,1458
+2022-02-01,2022,2,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2022-02-01,2022,2,Hospital Admissions,Psychiatric Hospitals,Public,634
+2022-02-01,2022,2,Outpatient Attendances,Accident & Emergency Departments,All,80586
+2022-02-01,2022,2,Outpatient Attendances,Dental Clinics,All,70592
+2022-02-01,2022,2,Outpatient Attendances,Polyclinics,All,477279
+2022-02-01,2022,2,Outpatient Attendances,Specialist Outpatient Clinics,All,369299
+2022-03-01,2022,3,Day Surgeries,Day Surgeries,All,34798
+2022-03-01,2022,3,Hospital Admissions,Acute Hospitals,Non-Public,10008
+2022-03-01,2022,3,Hospital Admissions,Acute Hospitals,Public,41532
+2022-03-01,2022,3,Hospital Admissions,Community Hospitals,Non-Public,937
+2022-03-01,2022,3,Hospital Admissions,Community Hospitals,Public,1849
+2022-03-01,2022,3,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2022-03-01,2022,3,Hospital Admissions,Psychiatric Hospitals,Public,855
+2022-03-01,2022,3,Outpatient Attendances,Accident & Emergency Departments,All,79733
+2022-03-01,2022,3,Outpatient Attendances,Dental Clinics,All,84467
+2022-03-01,2022,3,Outpatient Attendances,Polyclinics,All,573038
+2022-03-01,2022,3,Outpatient Attendances,Specialist Outpatient Clinics,All,450249
+2022-04-01,2022,4,Day Surgeries,Day Surgeries,All,35118
+2022-04-01,2022,4,Hospital Admissions,Acute Hospitals,Non-Public,9167
+2022-04-01,2022,4,Hospital Admissions,Acute Hospitals,Public,38853
+2022-04-01,2022,4,Hospital Admissions,Community Hospitals,Non-Public,810
+2022-04-01,2022,4,Hospital Admissions,Community Hospitals,Public,1168
+2022-04-01,2022,4,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2022-04-01,2022,4,Hospital Admissions,Psychiatric Hospitals,Public,838
+2022-04-01,2022,4,Outpatient Attendances,Accident & Emergency Departments,All,75045
+2022-04-01,2022,4,Outpatient Attendances,Dental Clinics,All,84430
+2022-04-01,2022,4,Outpatient Attendances,Polyclinics,All,520553
+2022-04-01,2022,4,Outpatient Attendances,Specialist Outpatient Clinics,All,438545
+2022-05-01,2022,5,Day Surgeries,Day Surgeries,All,33301
+2022-05-01,2022,5,Hospital Admissions,Acute Hospitals,Non-Public,9540
+2022-05-01,2022,5,Hospital Admissions,Acute Hospitals,Public,39817
+2022-05-01,2022,5,Hospital Admissions,Community Hospitals,Non-Public,643
+2022-05-01,2022,5,Hospital Admissions,Community Hospitals,Public,1008
+2022-05-01,2022,5,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2022-05-01,2022,5,Hospital Admissions,Psychiatric Hospitals,Public,792
+2022-05-01,2022,5,Outpatient Attendances,Accident & Emergency Departments,All,89804
+2022-05-01,2022,5,Outpatient Attendances,Dental Clinics,All,71191
+2022-05-01,2022,5,Outpatient Attendances,Polyclinics,All,516978
+2022-05-01,2022,5,Outpatient Attendances,Specialist Outpatient Clinics,All,418686
+2022-06-01,2022,6,Day Surgeries,Day Surgeries,All,36808
+2022-06-01,2022,6,Hospital Admissions,Acute Hospitals,Non-Public,9600
+2022-06-01,2022,6,Hospital Admissions,Acute Hospitals,Public,41574
+2022-06-01,2022,6,Hospital Admissions,Community Hospitals,Non-Public,735
+2022-06-01,2022,6,Hospital Admissions,Community Hospitals,Public,1034
+2022-06-01,2022,6,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2022-06-01,2022,6,Hospital Admissions,Psychiatric Hospitals,Public,760
+2022-06-01,2022,6,Outpatient Attendances,Accident & Emergency Departments,All,86970
+2022-06-01,2022,6,Outpatient Attendances,Dental Clinics,All,61969
+2022-06-01,2022,6,Outpatient Attendances,Polyclinics,All,574439
+2022-06-01,2022,6,Outpatient Attendances,Specialist Outpatient Clinics,All,454293
+2022-07-01,2022,7,Day Surgeries,Day Surgeries,All,34077
+2022-07-01,2022,7,Hospital Admissions,Acute Hospitals,Non-Public,9827
+2022-07-01,2022,7,Hospital Admissions,Acute Hospitals,Public,42808
+2022-07-01,2022,7,Hospital Admissions,Community Hospitals,Non-Public,690
+2022-07-01,2022,7,Hospital Admissions,Community Hospitals,Public,1488
+2022-07-01,2022,7,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2022-07-01,2022,7,Hospital Admissions,Psychiatric Hospitals,Public,832
+2022-07-01,2022,7,Outpatient Attendances,Accident & Emergency Departments,All,96398
+2022-07-01,2022,7,Outpatient Attendances,Dental Clinics,All,82939
+2022-07-01,2022,7,Outpatient Attendances,Polyclinics,All,553484
+2022-07-01,2022,7,Outpatient Attendances,Specialist Outpatient Clinics,All,432363
+2022-08-01,2022,8,Day Surgeries,Day Surgeries,All,35625
+2022-08-01,2022,8,Hospital Admissions,Acute Hospitals,Non-Public,9592
+2022-08-01,2022,8,Hospital Admissions,Acute Hospitals,Public,41922
+2022-08-01,2022,8,Hospital Admissions,Community Hospitals,Non-Public,718
+2022-08-01,2022,8,Hospital Admissions,Community Hospitals,Public,1200
+2022-08-01,2022,8,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2022-08-01,2022,8,Hospital Admissions,Psychiatric Hospitals,Public,824
+2022-08-01,2022,8,Outpatient Attendances,Accident & Emergency Departments,All,89471
+2022-08-01,2022,8,Outpatient Attendances,Dental Clinics,All,92526
+2022-08-01,2022,8,Outpatient Attendances,Polyclinics,All,587814
+2022-08-01,2022,8,Outpatient Attendances,Specialist Outpatient Clinics,All,452536
+2022-09-01,2022,9,Day Surgeries,Day Surgeries,All,36149
+2022-09-01,2022,9,Hospital Admissions,Acute Hospitals,Non-Public,9833
+2022-09-01,2022,9,Hospital Admissions,Acute Hospitals,Public,41449
+2022-09-01,2022,9,Hospital Admissions,Community Hospitals,Non-Public,746
+2022-09-01,2022,9,Hospital Admissions,Community Hospitals,Public,977
+2022-09-01,2022,9,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2022-09-01,2022,9,Hospital Admissions,Psychiatric Hospitals,Public,766
+2022-09-01,2022,9,Outpatient Attendances,Accident & Emergency Departments,All,86463
+2022-09-01,2022,9,Outpatient Attendances,Dental Clinics,All,82211
+2022-09-01,2022,9,Outpatient Attendances,Polyclinics,All,575688
+2022-09-01,2022,9,Outpatient Attendances,Specialist Outpatient Clinics,All,460564
+2022-10-01,2022,10,Day Surgeries,Day Surgeries,All,32718
+2022-10-01,2022,10,Hospital Admissions,Acute Hospitals,Non-Public,9596
+2022-10-01,2022,10,Hospital Admissions,Acute Hospitals,Public,41826
+2022-10-01,2022,10,Hospital Admissions,Community Hospitals,Non-Public,761
+2022-10-01,2022,10,Hospital Admissions,Community Hospitals,Public,1433
+2022-10-01,2022,10,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2022-10-01,2022,10,Hospital Admissions,Psychiatric Hospitals,Public,785
+2022-10-01,2022,10,Outpatient Attendances,Accident & Emergency Departments,All,91755
+2022-10-01,2022,10,Outpatient Attendances,Dental Clinics,All,70948
+2022-10-01,2022,10,Outpatient Attendances,Polyclinics,All,553192
+2022-10-01,2022,10,Outpatient Attendances,Specialist Outpatient Clinics,All,416911
+2022-11-01,2022,11,Day Surgeries,Day Surgeries,All,36492
+2022-11-01,2022,11,Hospital Admissions,Acute Hospitals,Non-Public,9424
+2022-11-01,2022,11,Hospital Admissions,Acute Hospitals,Public,40632
+2022-11-01,2022,11,Hospital Admissions,Community Hospitals,Non-Public,733
+2022-11-01,2022,11,Hospital Admissions,Community Hospitals,Public,1089
+2022-11-01,2022,11,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2022-11-01,2022,11,Hospital Admissions,Psychiatric Hospitals,Public,757
+2022-11-01,2022,11,Outpatient Attendances,Accident & Emergency Departments,All,81091
+2022-11-01,2022,11,Outpatient Attendances,Dental Clinics,All,73275
+2022-11-01,2022,11,Outpatient Attendances,Polyclinics,All,581319
+2022-11-01,2022,11,Outpatient Attendances,Specialist Outpatient Clinics,All,465420
+2022-12-01,2022,12,Day Surgeries,Day Surgeries,All,31890
+2022-12-01,2022,12,Hospital Admissions,Acute Hospitals,Non-Public,9298
+2022-12-01,2022,12,Hospital Admissions,Acute Hospitals,Public,40993
+2022-12-01,2022,12,Hospital Admissions,Community Hospitals,Non-Public,830
+2022-12-01,2022,12,Hospital Admissions,Community Hospitals,Public,1072
+2022-12-01,2022,12,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2022-12-01,2022,12,Hospital Admissions,Psychiatric Hospitals,Public,751
+2022-12-01,2022,12,Outpatient Attendances,Accident & Emergency Departments,All,83340
+2022-12-01,2022,12,Outpatient Attendances,Dental Clinics,All,54360
+2022-12-01,2022,12,Outpatient Attendances,Polyclinics,All,568932
+2022-12-01,2022,12,Outpatient Attendances,Specialist Outpatient Clinics,All,406056
+2023-01-01,2023,1,Day Surgeries,Day Surgeries,All,31824
+2023-01-01,2023,1,Hospital Admissions,Acute Hospitals,Non-Public,8950
+2023-01-01,2023,1,Hospital Admissions,Acute Hospitals,Public,39035
+2023-01-01,2023,1,Hospital Admissions,Community Hospitals,Non-Public,724
+2023-01-01,2023,1,Hospital Admissions,Community Hospitals,Public,878
+2023-01-01,2023,1,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2023-01-01,2023,1,Hospital Admissions,Psychiatric Hospitals,Public,726
+2023-01-01,2023,1,Outpatient Attendances,Accident & Emergency Departments,All,87222
+2023-01-01,2023,1,Outpatient Attendances,Dental Clinics,All,81523
+2023-01-01,2023,1,Outpatient Attendances,Polyclinics,All,519971
+2023-01-01,2023,1,Outpatient Attendances,Specialist Outpatient Clinics,All,427037
+2023-02-01,2023,2,Day Surgeries,Day Surgeries,All,35734
+2023-02-01,2023,2,Hospital Admissions,Acute Hospitals,Non-Public,9095
+2023-02-01,2023,2,Hospital Admissions,Acute Hospitals,Public,39503
+2023-02-01,2023,2,Hospital Admissions,Community Hospitals,Non-Public,647
+2023-02-01,2023,2,Hospital Admissions,Community Hospitals,Public,805
+2023-02-01,2023,2,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2023-02-01,2023,2,Hospital Admissions,Psychiatric Hospitals,Public,721
+2023-02-01,2023,2,Outpatient Attendances,Accident & Emergency Departments,All,84570
+2023-02-01,2023,2,Outpatient Attendances,Dental Clinics,All,89490
+2023-02-01,2023,2,Outpatient Attendances,Polyclinics,All,557231
+2023-02-01,2023,2,Outpatient Attendances,Specialist Outpatient Clinics,All,438848
+2023-03-01,2023,3,Day Surgeries,Day Surgeries,All,39661
+2023-03-01,2023,3,Hospital Admissions,Acute Hospitals,Non-Public,10063
+2023-03-01,2023,3,Hospital Admissions,Acute Hospitals,Public,44504
+2023-03-01,2023,3,Hospital Admissions,Community Hospitals,Non-Public,834
+2023-03-01,2023,3,Hospital Admissions,Community Hospitals,Public,1135
+2023-03-01,2023,3,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2023-03-01,2023,3,Hospital Admissions,Psychiatric Hospitals,Public,813
+2023-03-01,2023,3,Outpatient Attendances,Accident & Emergency Departments,All,95673
+2023-03-01,2023,3,Outpatient Attendances,Dental Clinics,All,90875
+2023-03-01,2023,3,Outpatient Attendances,Polyclinics,All,614981
+2023-03-01,2023,3,Outpatient Attendances,Specialist Outpatient Clinics,All,482987
+2023-04-01,2023,4,Day Surgeries,Day Surgeries,All,33621
+2023-04-01,2023,4,Hospital Admissions,Acute Hospitals,Non-Public,9299
+2023-04-01,2023,4,Hospital Admissions,Acute Hospitals,Public,41669
+2023-04-01,2023,4,Hospital Admissions,Community Hospitals,Non-Public,702
+2023-04-01,2023,4,Hospital Admissions,Community Hospitals,Public,1131
+2023-04-01,2023,4,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2023-04-01,2023,4,Hospital Admissions,Psychiatric Hospitals,Public,766
+2023-04-01,2023,4,Outpatient Attendances,Accident & Emergency Departments,All,89997
+2023-04-01,2023,4,Outpatient Attendances,Dental Clinics,All,77274
+2023-04-01,2023,4,Outpatient Attendances,Polyclinics,All,524646
+2023-04-01,2023,4,Outpatient Attendances,Specialist Outpatient Clinics,All,411435
+2023-05-01,2023,5,Day Surgeries,Day Surgeries,All,38480
+2023-05-01,2023,5,Hospital Admissions,Acute Hospitals,Non-Public,9710
+2023-05-01,2023,5,Hospital Admissions,Acute Hospitals,Public,43322
+2023-05-01,2023,5,Hospital Admissions,Community Hospitals,Non-Public,797
+2023-05-01,2023,5,Hospital Admissions,Community Hospitals,Public,1185
+2023-05-01,2023,5,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2023-05-01,2023,5,Hospital Admissions,Psychiatric Hospitals,Public,844
+2023-05-01,2023,5,Outpatient Attendances,Accident & Emergency Departments,All,89842
+2023-05-01,2023,5,Outpatient Attendances,Dental Clinics,All,83845
+2023-05-01,2023,5,Outpatient Attendances,Polyclinics,All,602607
+2023-05-01,2023,5,Outpatient Attendances,Specialist Outpatient Clinics,All,472321
+2023-06-01,2023,6,Day Surgeries,Day Surgeries,All,34909
+2023-06-01,2023,6,Hospital Admissions,Acute Hospitals,Non-Public,9313
+2023-06-01,2023,6,Hospital Admissions,Acute Hospitals,Public,40162
+2023-06-01,2023,6,Hospital Admissions,Community Hospitals,Non-Public,780
+2023-06-01,2023,6,Hospital Admissions,Community Hospitals,Public,1024
+2023-06-01,2023,6,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2023-06-01,2023,6,Hospital Admissions,Psychiatric Hospitals,Public,761
+2023-06-01,2023,6,Outpatient Attendances,Accident & Emergency Departments,All,80213
+2023-06-01,2023,6,Outpatient Attendances,Dental Clinics,All,56309
+2023-06-01,2023,6,Outpatient Attendances,Polyclinics,All,543008
+2023-06-01,2023,6,Outpatient Attendances,Specialist Outpatient Clinics,All,416931
+2023-07-01,2023,7,Day Surgeries,Day Surgeries,All,37887
+2023-07-01,2023,7,Hospital Admissions,Acute Hospitals,Non-Public,9877
+2023-07-01,2023,7,Hospital Admissions,Acute Hospitals,Public,42243
+2023-07-01,2023,7,Hospital Admissions,Community Hospitals,Non-Public,728
+2023-07-01,2023,7,Hospital Admissions,Community Hospitals,Public,972
+2023-07-01,2023,7,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2023-07-01,2023,7,Hospital Admissions,Psychiatric Hospitals,Public,853
+2023-07-01,2023,7,Outpatient Attendances,Accident & Emergency Departments,All,89061
+2023-07-01,2023,7,Outpatient Attendances,Dental Clinics,All,88142
+2023-07-01,2023,7,Outpatient Attendances,Polyclinics,All,588195
+2023-07-01,2023,7,Outpatient Attendances,Specialist Outpatient Clinics,All,459058
+2023-08-01,2023,8,Day Surgeries,Day Surgeries,All,40570
+2023-08-01,2023,8,Hospital Admissions,Acute Hospitals,Non-Public,10012
+2023-08-01,2023,8,Hospital Admissions,Acute Hospitals,Public,44184
+2023-08-01,2023,8,Hospital Admissions,Community Hospitals,Non-Public,788
+2023-08-01,2023,8,Hospital Admissions,Community Hospitals,Public,1066
+2023-08-01,2023,8,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2023-08-01,2023,8,Hospital Admissions,Psychiatric Hospitals,Public,875
+2023-08-01,2023,8,Outpatient Attendances,Accident & Emergency Departments,All,89228
+2023-08-01,2023,8,Outpatient Attendances,Dental Clinics,All,92590
+2023-08-01,2023,8,Outpatient Attendances,Polyclinics,All,610026
+2023-08-01,2023,8,Outpatient Attendances,Specialist Outpatient Clinics,All,491787
+2023-09-01,2023,9,Day Surgeries,Day Surgeries,All,36739
+2023-09-01,2023,9,Hospital Admissions,Acute Hospitals,Non-Public,9577
+2023-09-01,2023,9,Hospital Admissions,Acute Hospitals,Public,41784
+2023-09-01,2023,9,Hospital Admissions,Community Hospitals,Non-Public,715
+2023-09-01,2023,9,Hospital Admissions,Community Hospitals,Public,952
+2023-09-01,2023,9,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2023-09-01,2023,9,Hospital Admissions,Psychiatric Hospitals,Public,834
+2023-09-01,2023,9,Outpatient Attendances,Accident & Emergency Departments,All,86086
+2023-09-01,2023,9,Outpatient Attendances,Dental Clinics,All,76365
+2023-09-01,2023,9,Outpatient Attendances,Polyclinics,All,560762
+2023-09-01,2023,9,Outpatient Attendances,Specialist Outpatient Clinics,All,430093
+2023-10-01,2023,10,Day Surgeries,Day Surgeries,All,39871
+2023-10-01,2023,10,Hospital Admissions,Acute Hospitals,Non-Public,10073
+2023-10-01,2023,10,Hospital Admissions,Acute Hospitals,Public,43600
+2023-10-01,2023,10,Hospital Admissions,Community Hospitals,Non-Public,781
+2023-10-01,2023,10,Hospital Admissions,Community Hospitals,Public,1038
+2023-10-01,2023,10,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2023-10-01,2023,10,Hospital Admissions,Psychiatric Hospitals,Public,901
+2023-10-01,2023,10,Outpatient Attendances,Accident & Emergency Departments,All,87975
+2023-10-01,2023,10,Outpatient Attendances,Dental Clinics,All,80229
+2023-10-01,2023,10,Outpatient Attendances,Polyclinics,All,602564
+2023-10-01,2023,10,Outpatient Attendances,Specialist Outpatient Clinics,All,473070
+2023-11-01,2023,11,Day Surgeries,Day Surgeries,All,37172
+2023-11-01,2023,11,Hospital Admissions,Acute Hospitals,Non-Public,9875
+2023-11-01,2023,11,Hospital Admissions,Acute Hospitals,Public,41654
+2023-11-01,2023,11,Hospital Admissions,Community Hospitals,Non-Public,734
+2023-11-01,2023,11,Hospital Admissions,Community Hospitals,Public,1115
+2023-11-01,2023,11,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2023-11-01,2023,11,Hospital Admissions,Psychiatric Hospitals,Public,812
+2023-11-01,2023,11,Outpatient Attendances,Accident & Emergency Departments,All,82471
+2023-11-01,2023,11,Outpatient Attendances,Dental Clinics,All,67103
+2023-11-01,2023,11,Outpatient Attendances,Polyclinics,All,587731
+2023-11-01,2023,11,Outpatient Attendances,Specialist Outpatient Clinics,All,447599
+2023-12-01,2023,12,Day Surgeries,Day Surgeries,All,32103
+2023-12-01,2023,12,Hospital Admissions,Acute Hospitals,Non-Public,9535
+2023-12-01,2023,12,Hospital Admissions,Acute Hospitals,Public,43130
+2023-12-01,2023,12,Hospital Admissions,Community Hospitals,Non-Public,781
+2023-12-01,2023,12,Hospital Admissions,Community Hospitals,Public,1227
+2023-12-01,2023,12,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2023-12-01,2023,12,Hospital Admissions,Psychiatric Hospitals,Public,787
+2023-12-01,2023,12,Outpatient Attendances,Accident & Emergency Departments,All,86120
+2023-12-01,2023,12,Outpatient Attendances,Dental Clinics,All,49978
+2023-12-01,2023,12,Outpatient Attendances,Polyclinics,All,584319
+2023-12-01,2023,12,Outpatient Attendances,Specialist Outpatient Clinics,All,383675
+2024-01-01,2024,1,Day Surgeries,Day Surgeries,All,41085
+2024-01-01,2024,1,Hospital Admissions,Acute Hospitals,Non-Public,10373
+2024-01-01,2024,1,Hospital Admissions,Acute Hospitals,Public,43435
+2024-01-01,2024,1,Hospital Admissions,Community Hospitals,Non-Public,770
+2024-01-01,2024,1,Hospital Admissions,Community Hospitals,Public,1235
+2024-01-01,2024,1,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2024-01-01,2024,1,Hospital Admissions,Psychiatric Hospitals,Public,824
+2024-01-01,2024,1,Outpatient Attendances,Accident & Emergency Departments,All,91550
+2024-01-01,2024,1,Outpatient Attendances,Dental Clinics,All,99807
+2024-01-01,2024,1,Outpatient Attendances,Polyclinics,All,638837
+2024-01-01,2024,1,Outpatient Attendances,Specialist Outpatient Clinics,All,503706
+2024-02-01,2024,2,Day Surgeries,Day Surgeries,All,34765
+2024-02-01,2024,2,Hospital Admissions,Acute Hospitals,Non-Public,8954
+2024-02-01,2024,2,Hospital Admissions,Acute Hospitals,Public,40303
+2024-02-01,2024,2,Hospital Admissions,Community Hospitals,Non-Public,735
+2024-02-01,2024,2,Hospital Admissions,Community Hospitals,Public,1166
+2024-02-01,2024,2,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2024-02-01,2024,2,Hospital Admissions,Psychiatric Hospitals,Public,759
+2024-02-01,2024,2,Outpatient Attendances,Accident & Emergency Departments,All,83786
+2024-02-01,2024,2,Outpatient Attendances,Dental Clinics,All,82820
+2024-02-01,2024,2,Outpatient Attendances,Polyclinics,All,539351
+2024-02-01,2024,2,Outpatient Attendances,Specialist Outpatient Clinics,All,430042
+2024-03-01,2024,3,Day Surgeries,Day Surgeries,All,38106
+2024-03-01,2024,3,Hospital Admissions,Acute Hospitals,Non-Public,10374
+2024-03-01,2024,3,Hospital Admissions,Acute Hospitals,Public,42887
+2024-03-01,2024,3,Hospital Admissions,Community Hospitals,Non-Public,782
+2024-03-01,2024,3,Hospital Admissions,Community Hospitals,Public,1308
+2024-03-01,2024,3,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2024-03-01,2024,3,Hospital Admissions,Psychiatric Hospitals,Public,821
+2024-03-01,2024,3,Outpatient Attendances,Accident & Emergency Departments,All,85229
+2024-03-01,2024,3,Outpatient Attendances,Dental Clinics,All,78869
+2024-03-01,2024,3,Outpatient Attendances,Polyclinics,All,569767
+2024-03-01,2024,3,Outpatient Attendances,Specialist Outpatient Clinics,All,436476
+2024-04-01,2024,4,Day Surgeries,Day Surgeries,All,40591
+2024-04-01,2024,4,Hospital Admissions,Acute Hospitals,Non-Public,9798
+2024-04-01,2024,4,Hospital Admissions,Acute Hospitals,Public,42473
+2024-04-01,2024,4,Hospital Admissions,Community Hospitals,Non-Public,782
+2024-04-01,2024,4,Hospital Admissions,Community Hospitals,Public,1319
+2024-04-01,2024,4,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2024-04-01,2024,4,Hospital Admissions,Psychiatric Hospitals,Public,883
+2024-04-01,2024,4,Outpatient Attendances,Accident & Emergency Departments,All,85254
+2024-04-01,2024,4,Outpatient Attendances,Dental Clinics,All,88294
+2024-04-01,2024,4,Outpatient Attendances,Polyclinics,All,599763
+2024-04-01,2024,4,Outpatient Attendances,Specialist Outpatient Clinics,All,463887
+2024-05-01,2024,5,Day Surgeries,Day Surgeries,All,40080
+2024-05-01,2024,5,Hospital Admissions,Acute Hospitals,Non-Public,10401
+2024-05-01,2024,5,Hospital Admissions,Acute Hospitals,Public,45193
+2024-05-01,2024,5,Hospital Admissions,Community Hospitals,Non-Public,785
+2024-05-01,2024,5,Hospital Admissions,Community Hospitals,Public,1408
+2024-05-01,2024,5,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2024-05-01,2024,5,Hospital Admissions,Psychiatric Hospitals,Public,838
+2024-05-01,2024,5,Outpatient Attendances,Accident & Emergency Departments,All,93454
+2024-05-01,2024,5,Outpatient Attendances,Dental Clinics,All,78872
+2024-05-01,2024,5,Outpatient Attendances,Polyclinics,All,614140
+2024-05-01,2024,5,Outpatient Attendances,Specialist Outpatient Clinics,All,458658
+2024-06-01,2024,6,Day Surgeries,Day Surgeries,All,36852
+2024-06-01,2024,6,Hospital Admissions,Acute Hospitals,Non-Public,9657
+2024-06-01,2024,6,Hospital Admissions,Acute Hospitals,Public,42577
+2024-06-01,2024,6,Hospital Admissions,Community Hospitals,Non-Public,780
+2024-06-01,2024,6,Hospital Admissions,Community Hospitals,Public,1395
+2024-06-01,2024,6,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2024-06-01,2024,6,Hospital Admissions,Psychiatric Hospitals,Public,761
+2024-06-01,2024,6,Outpatient Attendances,Accident & Emergency Departments,All,86677
+2024-06-01,2024,6,Outpatient Attendances,Dental Clinics,All,58465
+2024-06-01,2024,6,Outpatient Attendances,Polyclinics,All,551113
+2024-06-01,2024,6,Outpatient Attendances,Specialist Outpatient Clinics,All,412405
+2024-07-01,2024,7,Day Surgeries,Day Surgeries,All,46363
+2024-07-01,2024,7,Hospital Admissions,Acute Hospitals,Non-Public,10359
+2024-07-01,2024,7,Hospital Admissions,Acute Hospitals,Public,46791
+2024-07-01,2024,7,Hospital Admissions,Community Hospitals,Non-Public,842
+2024-07-01,2024,7,Hospital Admissions,Community Hospitals,Public,1516
+2024-07-01,2024,7,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2024-07-01,2024,7,Hospital Admissions,Psychiatric Hospitals,Public,906
+2024-07-01,2024,7,Outpatient Attendances,Accident & Emergency Departments,All,95994
+2024-07-01,2024,7,Outpatient Attendances,Dental Clinics,All,101246
+2024-07-01,2024,7,Outpatient Attendances,Polyclinics,All,647813
+2024-07-01,2024,7,Outpatient Attendances,Specialist Outpatient Clinics,All,515605
+2024-08-01,2024,8,Day Surgeries,Day Surgeries,All,42406
+2024-08-01,2024,8,Hospital Admissions,Acute Hospitals,Non-Public,9875
+2024-08-01,2024,8,Hospital Admissions,Acute Hospitals,Public,45060
+2024-08-01,2024,8,Hospital Admissions,Community Hospitals,Non-Public,866
+2024-08-01,2024,8,Hospital Admissions,Community Hospitals,Public,1526
+2024-08-01,2024,8,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2024-08-01,2024,8,Hospital Admissions,Psychiatric Hospitals,Public,874
+2024-08-01,2024,8,Outpatient Attendances,Accident & Emergency Departments,All,88948
+2024-08-01,2024,8,Outpatient Attendances,Dental Clinics,All,87871
+2024-08-01,2024,8,Outpatient Attendances,Polyclinics,All,602034
+2024-08-01,2024,8,Outpatient Attendances,Specialist Outpatient Clinics,All,470705
+2024-09-01,2024,9,Day Surgeries,Day Surgeries,All,41058
+2024-09-01,2024,9,Hospital Admissions,Acute Hospitals,Non-Public,9713
+2024-09-01,2024,9,Hospital Admissions,Acute Hospitals,Public,42757
+2024-09-01,2024,9,Hospital Admissions,Community Hospitals,Non-Public,756
+2024-09-01,2024,9,Hospital Admissions,Community Hospitals,Public,1488
+2024-09-01,2024,9,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2024-09-01,2024,9,Hospital Admissions,Psychiatric Hospitals,Public,836
+2024-09-01,2024,9,Outpatient Attendances,Accident & Emergency Departments,All,86257
+2024-09-01,2024,9,Outpatient Attendances,Dental Clinics,All,82591
+2024-09-01,2024,9,Outpatient Attendances,Polyclinics,All,575899
+2024-09-01,2024,9,Outpatient Attendances,Specialist Outpatient Clinics,All,449533
+2024-10-01,2024,10,Day Surgeries,Day Surgeries,All,44427
+2024-10-01,2024,10,Hospital Admissions,Acute Hospitals,Non-Public,10161
+2024-10-01,2024,10,Hospital Admissions,Acute Hospitals,Public,45713
+2024-10-01,2024,10,Hospital Admissions,Community Hospitals,Non-Public,807
+2024-10-01,2024,10,Hospital Admissions,Community Hospitals,Public,1590
+2024-10-01,2024,10,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2024-10-01,2024,10,Hospital Admissions,Psychiatric Hospitals,Public,839
+2024-10-01,2024,10,Outpatient Attendances,Accident & Emergency Departments,All,91191
+2024-10-01,2024,10,Outpatient Attendances,Dental Clinics,All,81884
+2024-10-01,2024,10,Outpatient Attendances,Polyclinics,All,619324
+2024-10-01,2024,10,Outpatient Attendances,Specialist Outpatient Clinics,All,487029
+2024-11-01,2024,11,Day Surgeries,Day Surgeries,All,41213
+2024-11-01,2024,11,Hospital Admissions,Acute Hospitals,Non-Public,9521
+2024-11-01,2024,11,Hospital Admissions,Acute Hospitals,Public,44144
+2024-11-01,2024,11,Hospital Admissions,Community Hospitals,Non-Public,824
+2024-11-01,2024,11,Hospital Admissions,Community Hospitals,Public,1636
+2024-11-01,2024,11,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2024-11-01,2024,11,Hospital Admissions,Psychiatric Hospitals,Public,744
+2024-11-01,2024,11,Outpatient Attendances,Accident & Emergency Departments,All,86963
+2024-11-01,2024,11,Outpatient Attendances,Dental Clinics,All,71925
+2024-11-01,2024,11,Outpatient Attendances,Polyclinics,All,622822
+2024-11-01,2024,11,Outpatient Attendances,Specialist Outpatient Clinics,All,460331
+2024-12-01,2024,12,Day Surgeries,Day Surgeries,All,36827
+2024-12-01,2024,12,Hospital Admissions,Acute Hospitals,Non-Public,9170
+2024-12-01,2024,12,Hospital Admissions,Acute Hospitals,Public,45256
+2024-12-01,2024,12,Hospital Admissions,Community Hospitals,Non-Public,826
+2024-12-01,2024,12,Hospital Admissions,Community Hospitals,Public,1657
+2024-12-01,2024,12,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2024-12-01,2024,12,Hospital Admissions,Psychiatric Hospitals,Public,761
+2024-12-01,2024,12,Outpatient Attendances,Accident & Emergency Departments,All,92862
+2024-12-01,2024,12,Outpatient Attendances,Dental Clinics,All,55298
+2024-12-01,2024,12,Outpatient Attendances,Polyclinics,All,592436
+2024-12-01,2024,12,Outpatient Attendances,Specialist Outpatient Clinics,All,412187
+2025-01-01,2025,1,Day Surgeries,Day Surgeries,All,39110
+2025-01-01,2025,1,Hospital Admissions,Acute Hospitals,Non-Public,9424
+2025-01-01,2025,1,Hospital Admissions,Acute Hospitals,Public,45170
+2025-01-01,2025,1,Hospital Admissions,Community Hospitals,Non-Public,820
+2025-01-01,2025,1,Hospital Admissions,Community Hospitals,Public,1682
+2025-01-01,2025,1,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2025-01-01,2025,1,Hospital Admissions,Psychiatric Hospitals,Public,824
+2025-01-01,2025,1,Outpatient Attendances,Accident & Emergency Departments,All,95799
+2025-01-01,2025,1,Outpatient Attendances,Dental Clinics,All,83987
+2025-01-01,2025,1,Outpatient Attendances,Polyclinics,All,584435
+2025-01-01,2025,1,Outpatient Attendances,Specialist Outpatient Clinics,All,456826
+2025-02-01,2025,2,Day Surgeries,Day Surgeries,All,41825
+2025-02-01,2025,2,Hospital Admissions,Acute Hospitals,Non-Public,8779
+2025-02-01,2025,2,Hospital Admissions,Acute Hospitals,Public,43032
+2025-02-01,2025,2,Hospital Admissions,Community Hospitals,Non-Public,712
+2025-02-01,2025,2,Hospital Admissions,Community Hospitals,Public,1387
+2025-02-01,2025,2,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2025-02-01,2025,2,Hospital Admissions,Psychiatric Hospitals,Public,803
+2025-02-01,2025,2,Outpatient Attendances,Accident & Emergency Departments,All,89856
+2025-02-01,2025,2,Outpatient Attendances,Dental Clinics,All,93772
+2025-02-01,2025,2,Outpatient Attendances,Polyclinics,All,600585
+2025-02-01,2025,2,Outpatient Attendances,Specialist Outpatient Clinics,All,470174
+2025-03-01,2025,3,Day Surgeries,Day Surgeries,All,41500
+2025-03-01,2025,3,Hospital Admissions,Acute Hospitals,Non-Public,9559
+2025-03-01,2025,3,Hospital Admissions,Acute Hospitals,Public,44479
+2025-03-01,2025,3,Hospital Admissions,Community Hospitals,Non-Public,871
+2025-03-01,2025,3,Hospital Admissions,Community Hospitals,Public,1691
+2025-03-01,2025,3,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2025-03-01,2025,3,Hospital Admissions,Psychiatric Hospitals,Public,823
+2025-03-01,2025,3,Outpatient Attendances,Accident & Emergency Departments,All,91510
+2025-03-01,2025,3,Outpatient Attendances,Dental Clinics,All,84942
+2025-03-01,2025,3,Outpatient Attendances,Polyclinics,All,571805
+2025-03-01,2025,3,Outpatient Attendances,Specialist Outpatient Clinics,All,454516
+2025-04-01,2025,4,Day Surgeries,Day Surgeries,All,45725
+2025-04-01,2025,4,Hospital Admissions,Acute Hospitals,Non-Public,8869
+2025-04-01,2025,4,Hospital Admissions,Acute Hospitals,Public,45053
+2025-04-01,2025,4,Hospital Admissions,Community Hospitals,Non-Public,804
+2025-04-01,2025,4,Hospital Admissions,Community Hospitals,Public,1560
+2025-04-01,2025,4,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2025-04-01,2025,4,Hospital Admissions,Psychiatric Hospitals,Public,883
+2025-04-01,2025,4,Outpatient Attendances,Accident & Emergency Departments,All,94012
+2025-04-01,2025,4,Outpatient Attendances,Dental Clinics,All,95286
+2025-04-01,2025,4,Outpatient Attendances,Polyclinics,All,625140
+2025-04-01,2025,4,Outpatient Attendances,Specialist Outpatient Clinics,All,499863
+2025-05-01,2025,5,Day Surgeries,Day Surgeries,All,42811
+2025-05-01,2025,5,Hospital Admissions,Acute Hospitals,Non-Public,9691
+2025-05-01,2025,5,Hospital Admissions,Acute Hospitals,Public,46463
+2025-05-01,2025,5,Hospital Admissions,Community Hospitals,Non-Public,881
+2025-05-01,2025,5,Hospital Admissions,Community Hospitals,Public,1636
+2025-05-01,2025,5,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2025-05-01,2025,5,Hospital Admissions,Psychiatric Hospitals,Public,955
+2025-05-01,2025,5,Outpatient Attendances,Accident & Emergency Departments,All,95863
+2025-05-01,2025,5,Outpatient Attendances,Dental Clinics,All,82630
+2025-05-01,2025,5,Outpatient Attendances,Polyclinics,All,610643
+2025-05-01,2025,5,Outpatient Attendances,Specialist Outpatient Clinics,All,469069
+2025-06-01,2025,6,Day Surgeries,Day Surgeries,All,42763
+2025-06-01,2025,6,Hospital Admissions,Acute Hospitals,Non-Public,8867
+2025-06-01,2025,6,Hospital Admissions,Acute Hospitals,Public,43442
+2025-06-01,2025,6,Hospital Admissions,Community Hospitals,Non-Public,828
+2025-06-01,2025,6,Hospital Admissions,Community Hospitals,Public,1619
+2025-06-01,2025,6,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2025-06-01,2025,6,Hospital Admissions,Psychiatric Hospitals,Public,930
+2025-06-01,2025,6,Outpatient Attendances,Accident & Emergency Departments,All,88528
+2025-06-01,2025,6,Outpatient Attendances,Dental Clinics,All,64316
+2025-06-01,2025,6,Outpatient Attendances,Polyclinics,All,587843
+2025-06-01,2025,6,Outpatient Attendances,Specialist Outpatient Clinics,All,456976
+2025-07-01,2025,7,Day Surgeries,Day Surgeries,All,49564
+2025-07-01,2025,7,Hospital Admissions,Acute Hospitals,Non-Public,9577
+2025-07-01,2025,7,Hospital Admissions,Acute Hospitals,Public,46995
+2025-07-01,2025,7,Hospital Admissions,Community Hospitals,Non-Public,935
+2025-07-01,2025,7,Hospital Admissions,Community Hospitals,Public,1731
+2025-07-01,2025,7,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2025-07-01,2025,7,Hospital Admissions,Psychiatric Hospitals,Public,1053
+2025-07-01,2025,7,Outpatient Attendances,Accident & Emergency Departments,All,94354
+2025-07-01,2025,7,Outpatient Attendances,Dental Clinics,All,103308
+2025-07-01,2025,7,Outpatient Attendances,Polyclinics,All,651124
+2025-07-01,2025,7,Outpatient Attendances,Specialist Outpatient Clinics,All,535522
+2025-08-01,2025,8,Day Surgeries,Day Surgeries,All,45804
+2025-08-01,2025,8,Hospital Admissions,Acute Hospitals,Non-Public,9457
+2025-08-01,2025,8,Hospital Admissions,Acute Hospitals,Public,45983
+2025-08-01,2025,8,Hospital Admissions,Community Hospitals,Non-Public,921
+2025-08-01,2025,8,Hospital Admissions,Community Hospitals,Public,1759
+2025-08-01,2025,8,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2025-08-01,2025,8,Hospital Admissions,Psychiatric Hospitals,Public,1011
+2025-08-01,2025,8,Outpatient Attendances,Accident & Emergency Departments,All,94599
+2025-08-01,2025,8,Outpatient Attendances,Dental Clinics,All,94544
+2025-08-01,2025,8,Outpatient Attendances,Polyclinics,All,611168
+2025-08-01,2025,8,Outpatient Attendances,Specialist Outpatient Clinics,All,487000
+2025-09-01,2025,9,Day Surgeries,Day Surgeries,All,45591
+2025-09-01,2025,9,Hospital Admissions,Acute Hospitals,Non-Public,9034
+2025-09-01,2025,9,Hospital Admissions,Acute Hospitals,Public,46008
+2025-09-01,2025,9,Hospital Admissions,Community Hospitals,Non-Public,814
+2025-09-01,2025,9,Hospital Admissions,Community Hospitals,Public,1698
+2025-09-01,2025,9,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2025-09-01,2025,9,Hospital Admissions,Psychiatric Hospitals,Public,1013
+2025-09-01,2025,9,Outpatient Attendances,Accident & Emergency Departments,All,96605
+2025-09-01,2025,9,Outpatient Attendances,Dental Clinics,All,88525
+2025-09-01,2025,9,Outpatient Attendances,Polyclinics,All,625418
+2025-09-01,2025,9,Outpatient Attendances,Specialist Outpatient Clinics,All,490465
+2025-10-01,2025,10,Day Surgeries,Day Surgeries,All,46996
+2025-10-01,2025,10,Hospital Admissions,Acute Hospitals,Non-Public,9339
+2025-10-01,2025,10,Hospital Admissions,Acute Hospitals,Public,48945
+2025-10-01,2025,10,Hospital Admissions,Community Hospitals,Non-Public,871
+2025-10-01,2025,10,Hospital Admissions,Community Hospitals,Public,1814
+2025-10-01,2025,10,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2025-10-01,2025,10,Hospital Admissions,Psychiatric Hospitals,Public,1003
+2025-10-01,2025,10,Outpatient Attendances,Accident & Emergency Departments,All,98245
+2025-10-01,2025,10,Outpatient Attendances,Dental Clinics,All,89855
+2025-10-01,2025,10,Outpatient Attendances,Polyclinics,All,651785
+2025-10-01,2025,10,Outpatient Attendances,Specialist Outpatient Clinics,All,499108
+2025-11-01,2025,11,Day Surgeries,Day Surgeries,All,43363
+2025-11-01,2025,11,Hospital Admissions,Acute Hospitals,Non-Public,8937
+2025-11-01,2025,11,Hospital Admissions,Acute Hospitals,Public,45579
+2025-11-01,2025,11,Hospital Admissions,Community Hospitals,Non-Public,800
+2025-11-01,2025,11,Hospital Admissions,Community Hospitals,Public,1714
+2025-11-01,2025,11,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2025-11-01,2025,11,Hospital Admissions,Psychiatric Hospitals,Public,927
+2025-11-01,2025,11,Outpatient Attendances,Accident & Emergency Departments,All,90245
+2025-11-01,2025,11,Outpatient Attendances,Dental Clinics,All,76859
+2025-11-01,2025,11,Outpatient Attendances,Polyclinics,All,611079
+2025-11-01,2025,11,Outpatient Attendances,Specialist Outpatient Clinics,All,459147
+2025-12-01,2025,12,Day Surgeries,Day Surgeries,All,42264
+2025-12-01,2025,12,Hospital Admissions,Acute Hospitals,Non-Public,8171
+2025-12-01,2025,12,Hospital Admissions,Acute Hospitals,Public,47368
+2025-12-01,2025,12,Hospital Admissions,Community Hospitals,Non-Public,867
+2025-12-01,2025,12,Hospital Admissions,Community Hospitals,Public,1816
+2025-12-01,2025,12,Hospital Admissions,Psychiatric Hospitals,Non-Public,0
+2025-12-01,2025,12,Hospital Admissions,Psychiatric Hospitals,Public,929
+2025-12-01,2025,12,Outpatient Attendances,Accident & Emergency Departments,All,91408
+2025-12-01,2025,12,Outpatient Attendances,Dental Clinics,All,65886
+2025-12-01,2025,12,Outpatient Attendances,Polyclinics,All,623772
+2025-12-01,2025,12,Outpatient Attendances,Specialist Outpatient Clinics,All,449477

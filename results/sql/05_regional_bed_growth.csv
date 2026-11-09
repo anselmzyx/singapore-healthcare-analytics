@@ -1,0 +1,12 @@
+planning_region,facility_type,beds_2020,beds_2025,absolute_growth,pct_growth,share_of_2025_total_pct
+North Region,Acute Hospitals,795.0,1414.0,619.0,77.9,8.18
+Central Region,Community Hospitals,345.0,757.0,412.0,119.4,4.38
+Central Region,Acute Hospitals,8121.0,8326.0,205.0,2.5,48.14
+North-East Region,Acute Hospitals,799.0,954.0,155.0,19.4,5.52
+West Region,Acute Hospitals,644.0,792.0,148.0,23.0,4.58
+North Region,Community Hospitals,208.0,312.0,104.0,50.0,1.8
+East Region,Acute Hospitals,1186.0,1281.0,95.0,8.0,7.41
+West Region,Community Hospitals,471.0,507.0,36.0,7.6,2.93
+East Region,Community Hospitals,274.0,274.0,0.0,0.0,1.58
+North-East Region,Psychiatric Hospitals,1950.0,1950.0,0.0,0.0,11.27
+North-East Region,Community Hospitals,771.0,729.0,-42.0,-5.4,4.21
