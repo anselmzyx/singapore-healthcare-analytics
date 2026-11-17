@@ -1,73 +1,105 @@
 # Singapore Healthcare Utilisation & Capacity Analysis (2015–2025)
 
-End-to-end data analytics project covering hospital admissions, outpatient demand, and inpatient bed capacity in Singapore — built from raw government data through to a two-page Power BI dashboard.
+## Project overview and objectives
 
-## Business Problem & Objective
+I analysed three official Singapore government datasets to understand how hospital admissions, outpatient activity, and inpatient bed capacity changed between 2015 and 2025, and how that bed capacity is distributed across Singapore's planning regions. I used Python to clean and explore the data, DuckDB SQL to answer specific business questions, and Power BI to bring the findings together in a two-page dashboard.
 
-Singapore's healthcare system publishes separate official datasets for service utilisation (admissions/attendances) and physical capacity (beds), at different time grains and with no shared key. This project integrates them as far as the data genuinely allows, to understand how demand and capacity have moved together — or apart — from 2015 to 2025.
+This is a descriptive study of healthcare activity and infrastructure, not a causal analysis. Where I describe a change coinciding with 2020 to 2022, I'm reporting the timing and size of that change, not attributing it to the pandemic or any other specific cause.
 
-## Main Analytical Questions
+The questions I set out to answer were:
 
 1. How have hospital admissions and outpatient attendances changed from 2015 to 2025?
-2. Which services show the strongest growth, and how did they behave around 2020–2022?
+2. Which services show the strongest growth, and how did they behave around 2020 to 2022?
 3. How has inpatient bed capacity changed across ownership sectors and facility types?
 4. How does the growth rate of admissions compare to the growth rate of bed capacity?
 5. How is hospital bed capacity distributed across Singapore's planning regions, and how did it grow from 2020 to 2025?
 
-## Tools
+## Data source and collection date
 
-**Python** (pandas, NumPy, matplotlib) for data cleaning and exploratory analysis · **DuckDB / SQL** for business-question analysis · **Power BI Desktop** for the dashboard · **Jupyter** for the EDA notebook.
-
-## Data Sources & Licensing
-
-Three datasets from **data.gov.sg** (Singapore Department of Statistics / Ministry of Health), downloaded via the official Dataset Download API:
+I downloaded three datasets from data.gov.sg (Singapore Department of Statistics / Ministry of Health) using the official Dataset Download API on **8 November 2026**:
 
 | Dataset | ID | Coverage | Grain |
 |---|---|---|---|
-| [Hospital Admissions, Outpatient Attendances & Day Surgeries](https://data.gov.sg/datasets/d_b1ac3356e23ecad918854bbfa3627952/view) | `d_b1ac3356e23ecad918854bbfa3627952` | 1987–2026 | Monthly |
-| [Health Facilities & Inpatient Beds (Public/Private/Not-for-Profit)](https://data.gov.sg/datasets/d_852ebeb1165d0ec4cdc89fa7742959d1/view) | `d_852ebeb1165d0ec4cdc89fa7742959d1` | 2009–2025 | Annual |
-| [Hospital Beds by Facility Type & Planning Region](https://data.gov.sg/datasets/d_0ed27481bde3ad8abac12be380a441bb/view) | `d_0ed27481bde3ad8abac12be380a441bb` | 2020–2025 | Annual |
+| [Hospital Admissions, Outpatient Attendances & Day Surgeries](https://data.gov.sg/datasets/d_b1ac3356e23ecad918854bbfa3627952/view) | `d_b1ac3356e23ecad918854bbfa3627952` | 1987 to 2026 | Monthly |
+| [Health Facilities & Inpatient Beds (Public/Private/Not-for-Profit)](https://data.gov.sg/datasets/d_852ebeb1165d0ec4cdc89fa7742959d1/view) | `d_852ebeb1165d0ec4cdc89fa7742959d1` | 2009 to 2025 | Annual |
+| [Hospital Beds by Facility Type & Planning Region](https://data.gov.sg/datasets/d_0ed27481bde3ad8abac12be380a441bb/view) | `d_0ed27481bde3ad8abac12be380a441bb` | 2020 to 2025 | Annual |
 
-**Licence:** [Singapore Open Data Licence v1.0](https://developers.data.gov.sg/open-data-licence), which explicitly permits redistribution, modification, derivative works, and commercial/non-commercial use with attribution. Accordingly:
-
-> Contains information from "Hospital Admissions, Public Sector Outpatient Attendances And Day Surgeries, Monthly", "Health Facilities And Beds In Inpatient Facilities" and "Hospital Beds By Facility Type And Planning Region" accessed on 2026-11-08 from data.gov.sg, made available under the terms of the [Singapore Open Data Licence version 1.0](https://developers.data.gov.sg/open-data-licence).
+My analysis focuses on 2015 to 2025, the period common to the two national datasets. The regional dataset only covers 2020 to 2025, so any regional finding is limited to that shorter window. The three datasets also differ in grain (monthly versus annual) and in scope (national totals versus regional breakdowns), and they share no row-level key; I discuss what that means for comparability in Data-quality methodology and limitations below. Full licensing and attribution details are in Attribution and licensing at the end of this document.
 
 ## Workflow
 
-```
-Raw CSVs (data.gov.sg API)
-   → Python cleaning (scripts/clean_data.py)
-   → Processed CSVs (data/processed/)
-   → EDA notebook (notebooks/01_healthcare_eda.ipynb) + 7 PNG charts
-   → DuckDB SQL analysis (sql/*.sql → results/sql/*.csv)
-   → Power BI dashboard (dashboard/Singapore_Healthcare_Analytics.pbix)
-```
+| Stage | Tooling | Output |
+|---|---|---|
+| 1. Data acquisition and inspection | data.gov.sg API | Three original CSVs, inspected for structure, coverage, and placeholder values before any cleaning |
+| 2. Cleaning | Python, pandas | Three analysis-ready CSVs in `data/processed/`, with 741 admissions category-months reconciled against source totals |
+| 3. Exploratory analysis | Python, pandas, matplotlib, Jupyter | A public EDA notebook and 7 PNG charts |
+| 4. Business analysis | DuckDB SQL | 7 SQL queries answering the 5 business questions plus a source-reconciliation check, all exported to `results/sql/` |
+| 5. Dashboard | Power BI Desktop | A two-page report built manually from a 4-table model (3 fact tables plus a Year dimension) and 20 DAX measures |
 
-Each stage's reasoning, validation, and limitations are documented in `STAGE2_CLEANING_NOTES.md`, `STAGE3_EDA_FINDINGS.md`, and `STAGE4_SQL_FINDINGS.md`.
-
-## Main Findings
-
-All figures verified directly against the processed CSVs and `results/sql/`.
-
-- **Acute Hospital admissions** reached **658,221** in 2025 (+31.7% since 2015); **Community Hospital admissions** grew far faster in relative terms, reaching **30,231** (+183.3% since 2015), off a much smaller base.
-- **Public Acute Hospital admissions grew faster than Public Acute Hospital bed capacity**, 2015–2025: indexed to 2015 = 100, admissions reached **144.4** vs. beds at **132.7** by 2025. This is a growth-rate comparison, not an occupancy or utilisation measure — the two are never divided into a ratio anywhere in this project.
-- **Seven of eight service categories examined declined in 2020** — the exception was Community Hospital admissions, which grew +4.0% that year. Recovery timing varied by service: Dental Clinics fell sharply and rebounded within a year (-34.4% in 2020, +31.9% in 2021), while Psychiatric Hospital admissions and A&E attendances kept declining into 2021 rather than rebounding immediately (-8.8% then -2.4%, and -16.9% then -0.9%, respectively). These are descriptive year-over-year changes only — no causal link to the pandemic or any other driver is claimed.
-- **Hospital bed capacity is concentrated in the Central Region** (≈52.5% of the 2025 national total of 17,296 beds), with Psychiatric Hospital beds located exclusively in the North-East Region.
-- **Known, unresolved source discrepancy:** 2021 Public Community Hospital beds are reported as **1,180** in the national facilities dataset and **1,112** in the regional dataset (difference: **68**). Both values are preserved as published — not averaged or corrected — and are flagged on the dashboard itself.
+I validated each stage before moving on to the next: the cleaning script's own reconciliation checks, independent SQL re-derivation of figures also produced in the notebook, and a direct comparison of every dashboard KPI against the underlying CSVs. Full methodology and validation detail for each stage is in `STAGE2_CLEANING_NOTES.md`, `STAGE3_EDA_FINDINGS.md`, and `STAGE4_SQL_FINDINGS.md`.
 
 ## Dashboard
 
-**Page 1 — Healthcare Service Demand:** admissions and outpatient trends by type, Public vs. Non-Public admission share, and year-over-year growth, 2015–2025.
+### Page 1: Healthcare Service Demand
 
 ![Healthcare Service Demand dashboard page](dashboard/screenshots/healthcare_service_demand.png)
 
-**Page 2 — Hospital Capacity & Regional Distribution:** bed capacity by facility type and sector, the indexed admissions-vs-beds comparison, and regional bed distribution/growth, with the 2021 discrepancy disclosed directly on the page.
+Admissions and outpatient trends by type, the Public versus Non-Public admission share for Acute and Community Hospitals, and year-over-year growth, all covering 2015 to 2025.
+
+### Page 2: Hospital Capacity & Regional Distribution
 
 ![Hospital Capacity & Regional Distribution dashboard page](dashboard/screenshots/hospital_capacity_regions.png)
 
-Full build instructions (data model, DAX measures, visual-by-visual spec) are in `POWER_BI_BUILD_GUIDE.md`.
+Bed capacity by facility type and ownership sector, the indexed admissions-versus-beds comparison, and regional bed distribution and growth. The 2021 national-versus-regional bed discrepancy (see Key findings) is disclosed directly on this page.
 
-## Reproduction
+The PBIX file itself is included in this repository at `dashboard/Singapore_Healthcare_Analytics.pbix`. `POWER_BI_BUILD_GUIDE.md` documents the data model, every DAX measure, and the page-by-page build steps used to construct it.
+
+## Key findings
+
+All figures below are read directly from the processed CSVs and `results/sql/`.
+
+- Acute Hospital admissions reached **658,221** in 2025, up **31.7%** since 2015. Community Hospital admissions reached **30,231** in 2025, up **183.3%** since 2015, a much faster relative increase off a smaller base.
+- Public Acute Hospital admissions grew faster than Public Acute Hospital bed capacity over the same period. Indexed to 2015 = 100, admissions reached **144.4** by 2025 while beds reached **132.7**. This is a comparison of two growth rates, not an occupancy or utilisation measure; admissions and beds are never divided into a ratio anywhere in this project.
+- Seven of the eight service categories I examined declined in 2020. Community Hospital admissions was the exception, growing **4.0%** that year. Recovery timing varied: Dental Clinic attendances fell **34.4%** in 2020 and rebounded **31.9%** in 2021, while other services took longer to recover. These are descriptive year-over-year changes; I'm not claiming the pandemic or any other specific cause.
+- Hospital bed capacity is concentrated in the Central Region, which held approximately **52.5%** of the 2025 national total of 17,296 beds. Psychiatric Hospital beds are located exclusively in the North-East Region.
+- I found a genuine, unresolved discrepancy in the 2021 Public Community Hospital bed count: the national facilities dataset reports **1,180** beds, while the regional dataset reports **1,112** (a difference of **68**). I've preserved both values as published rather than averaging or correcting either one, and the dashboard discloses this directly.
+
+## Data-quality methodology and limitations
+
+**What I did:**
+- Reshaped both wide-format source files (monthly admissions, regional beds) into long format, parsing the hierarchical row structure (facility type, sector, region) encoded in each file's indentation.
+- Treated missing historical observations (periods before a series started reporting) as genuinely missing rather than zero, and reconciled 741 admissions category-months against their source totals before dropping the now-redundant parent-total rows, to avoid double counting admissions by both category and sector.
+- Kept Public and Non-Public admissions as a separate distinction from the Private/Not-for-Profit/Public bed-ownership categories in the two capacity datasets; I don't assume the two classifications map onto each other.
+
+**Limitations:**
+- The three datasets have no shared row-level key and different time grains (monthly admissions versus annual capacity), so every comparison is at the year/category level, never a direct join.
+- Regional bed figures describe where facilities are located, not where patients live or where demand originates.
+- The 2021 national-versus-regional bed discrepancy (68 beds, described above) remains unresolved; I'm not able to determine which figure, if either, is correct.
+- No occupancy rate, bed-utilisation rate, or other efficiency ratio is calculated anywhere in this project, and no causal inference is drawn from any year-over-year change.
+
+Further detail on each stage's specific decisions and checks is in `STAGE2_CLEANING_NOTES.md`, `STAGE3_EDA_FINDINGS.md`, and `STAGE4_SQL_FINDINGS.md`.
+
+## Repository structure
+
+```
+data/raw/              Original data.gov.sg CSVs, unmodified
+data/processed/        Cleaned, analysis-ready CSVs produced by scripts/clean_data.py
+scripts/                clean_data.py (raw -> processed) and run_sql_analysis.py (sql/ -> results/sql/)
+notebooks/              01_healthcare_eda.ipynb, the public EDA notebook
+figures/                7 PNG charts exported from the notebook
+sql/                    7 DuckDB SQL query files, one per business question plus a reconciliation check
+results/sql/            7 CSV outputs, one per query
+dashboard/              Singapore_Healthcare_Analytics.pbix and both dashboard screenshots
+requirements.txt        Python dependencies
+STAGE2_CLEANING_NOTES.md, STAGE3_EDA_FINDINGS.md, STAGE4_SQL_FINDINGS.md
+                        Stage-by-stage methodology and validation detail
+POWER_BI_BUILD_GUIDE.md Data model, DAX measures, and dashboard build instructions
+RESUME_BULLETS.md       Short summary of this project for a resume
+```
+
+## Reproducibility
+
+The raw and processed CSVs are already included in this repository, so you don't need to re-download or re-run anything to inspect the data. To regenerate everything from scratch:
 
 ```bash
 pip install -r requirements.txt
@@ -82,43 +114,12 @@ jupyter nbconvert --to notebook --execute --inplace notebooks/01_healthcare_eda.
 python3 scripts/run_sql_analysis.py
 ```
 
-Open `dashboard/Singapore_Healthcare_Analytics.pbix` in Power BI Desktop to view/edit the dashboard. **Note:** if opened on a different machine, Power BI may prompt to repoint the data source — use **Transform Data → Data Source Settings → Change Source** and point to this project's local `data/processed/` folder.
+To open the dashboard, open `dashboard/Singapore_Healthcare_Analytics.pbix` in Power BI Desktop. If you open it on a different machine, Power BI may prompt you to repoint the data source: use **Transform Data → Data Source Settings → Change Source** and point it at this repository's local `data/processed/` folder.
 
-## Limitations
+## Attribution and licensing
 
-- The three datasets share no row-level key; all comparisons use shared dimensions (year, facility type, sector), not joins.
-- Non-Public admissions (utilisation dataset) are not assumed equivalent to Private/Not-for-Profit beds (capacity datasets) — no such mapping is used.
-- No occupancy, bed-utilisation, or efficiency ratio is calculated anywhere in this project.
-- Regional capacity data (2020–2025) describes facility *location*, not patient residence or demand — no claim is made about any region being under- or over-served.
-- No forecasting or causal inference is performed; all year-over-year observations are descriptive.
+This project's three source datasets are published by data.gov.sg under the [Singapore Open Data Licence version 1.0](https://developers.data.gov.sg/open-data-licence), which permits redistribution, modification, and commercial and non-commercial use, subject to attribution. Accordingly:
 
-## Project Structure
+> Contains information from "Hospital Admissions, Public Sector Outpatient Attendances And Day Surgeries, Monthly", "Health Facilities And Beds In Inpatient Facilities" and "Hospital Beds By Facility Type And Planning Region" accessed on 8 November 2026 from data.gov.sg, made available under the terms of the [Singapore Open Data Licence version 1.0](https://developers.data.gov.sg/open-data-licence).
 
-```
-02_Singapore_Healthcare_Analytics/
-├── README.md
-├── requirements.txt
-├── RESUME_BULLETS.md
-├── STAGE2_CLEANING_NOTES.md
-├── STAGE3_EDA_FINDINGS.md
-├── STAGE4_SQL_FINDINGS.md
-├── POWER_BI_BUILD_GUIDE.md
-├── data/
-│   ├── raw/            # original data.gov.sg CSVs, unmodified
-│   └── processed/      # cleaned, analysis-ready CSVs
-├── scripts/
-│   ├── clean_data.py           # raw -> processed
-│   └── run_sql_analysis.py     # runs sql/ -> results/sql/
-├── notebooks/
-│   └── 01_healthcare_eda.ipynb
-├── figures/             # 7 PNG charts exported from the notebook
-├── sql/                 # 7 DuckDB SQL query files
-├── results/sql/         # 7 CSV outputs, one per query
-└── dashboard/
-    ├── Singapore_Healthcare_Analytics.pbix
-    └── screenshots/
-```
-
-## Status
-
-All stages (data collection → cleaning → EDA → SQL analysis → Power BI dashboard → documentation) are complete.
+Because this licence explicitly permits redistribution and derivative works, this repository includes the original raw CSVs, the cleaned processed CSVs, and the Power BI `.pbix` file itself, unlike projects built on datasets with more restrictive or unclear reuse terms.

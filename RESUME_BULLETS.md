@@ -1,4 +1,4 @@
-# Resume Bullets — Singapore Healthcare Analytics Project
+# Resume Bullets: Singapore Healthcare Analytics Project
 
 - Engineered a reproducible Python (pandas) pipeline to clean and reconcile three Singapore government healthcare datasets (2015–2025) with inconsistent wide/hierarchical formats, validating 741 admissions category-months against source totals and transparently documenting a genuine 68-bed discrepancy between national and regional capacity sources rather than silently correcting it.
 
