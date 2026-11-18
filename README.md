@@ -40,17 +40,17 @@ I validated each stage before moving on to the next: the cleaning script's own r
 
 ## Dashboard
 
-### Page 1: Healthcare Service Demand
+### Page 1: Service Demand & Utilisation
 
-![Healthcare Service Demand dashboard page](dashboard/screenshots/healthcare_service_demand.png)
+![Service Demand & Utilisation dashboard page](dashboard/screenshots/01_healhcare_service_demand_and_utilisation.png)
 
-Admissions and outpatient trends by type, the Public versus Non-Public admission share for Acute and Community Hospitals, and year-over-year growth, all covering 2015 to 2025.
+Admissions and outpatient attendance trends by type, the Public admission share for Acute and Community Hospitals, and annual healthcare activity growth, all covering 2015 to 2025. An interactive year-range slicer filters every trend to a custom period, while the KPI cards stay fixed to 2025 regardless of the slicer selection.
 
-### Page 2: Hospital Capacity & Regional Distribution
+### Page 2: Hospital Capacity & Regions
 
-![Hospital Capacity & Regional Distribution dashboard page](dashboard/screenshots/hospital_capacity_regions.png)
+![Hospital Capacity & Regions dashboard page](dashboard/screenshots/02_hospital_capacity_and_regional_distribution.png)
 
-Bed capacity by facility type and ownership sector, the indexed admissions-versus-beds comparison, and regional bed distribution and growth. The 2021 national-versus-regional bed discrepancy (see Key findings) is disclosed directly on this page.
+Hospital bed capacity by ownership sector and by hospital type, a regional matrix of hospital beds by facility type that updates dynamically to the slicer's selected end year, and the indexed comparison of Public Acute admissions versus bed capacity. The same year-range slicer and fixed 2025 KPI cards are used here. The 2021 national-versus-regional bed discrepancy (see Key findings) is disclosed directly on this page.
 
 The PBIX file itself is included in this repository at `dashboard/Singapore_Healthcare_Analytics.pbix`. `POWER_BI_BUILD_GUIDE.md` documents the data model, every DAX measure, and the page-by-page build steps used to construct it.
 
