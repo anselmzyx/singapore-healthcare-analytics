@@ -68,9 +68,14 @@ For each relationship: double-click it → confirm **Cardinality = One to many**
 
 **Do not** create any relationship directly between Monthly Utilisation, Facilities Annual, and Regional Beds Annual. They are deliberately left unconnected to each other; they only share the Year table as a common filtering bridge, never a row-level join.
 
-### 1.6 Why the Year table matters for one specific chart
+### 1.6 Why the Year table matters
 
-Most charts in this dashboard use a single fact table's own `year` column directly (simpler, and that's fine). The **one place the Year table is actually required** is Page 2's "Admissions vs. Bed Capacity" chart, which plots a measure from **Monthly Utilisation** and a measure from **Facilities Annual** on the *same* axis. Power BI needs a common field both measures can be filtered by: that's `Year[Year]`. Use `Year[Year]` as the axis for that one chart (details in Part 2).
+`Year[Year]` serves two distinct purposes in the final dashboard, not just one:
+
+1. **The shared axis for Page 2's "Admissions vs. Bed Capacity" chart**, which plots a measure from **Monthly Utilisation** and a measure from **Facilities Annual** on the *same* axis. Power BI needs a common field both measures can be filtered by; that's `Year[Year]`.
+2. **Both pages' Year Range slicers** are themselves built from `Year[Year]` (confirmed in the published dashboard's report definition), which is how a single slicer on each page can reach visuals built from any of the three fact tables at once, since each has its own relationship back to `Year`.
+
+Use `Year[Year]` as the axis for the indexed chart, and as the field for each page's Year Range slicer (details in Part 2).
 
 ---
 
@@ -92,7 +97,7 @@ This is belt-and-braces: either mechanism alone would keep the cards fixed; the 
 
 ---
 
-### 2.1 PAGE 1: Service Demand & Utilization
+### 2.1 PAGE 1: Service Demand & Utilisation
 
 **KPI cards (top row, 4 cards, each visual type = Card), fixed to 2025**
 

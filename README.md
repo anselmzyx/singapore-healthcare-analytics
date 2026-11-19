@@ -52,7 +52,7 @@ Admissions and outpatient attendance trends by type, the Public admission share 
 
 Hospital bed capacity by ownership sector and by hospital type, a regional matrix of hospital beds by facility type, and the indexed comparison of Public Acute admissions versus bed capacity. The same year-range slicer and fixed 2025 KPI cards are used here. The regional matrix shows the latest available year within the selected slicer range rather than a sum across that range, and regional coverage begins in 2020, so narrowing the range below that leaves it with nothing to show. The 2021 national-versus-regional bed discrepancy (see Key findings) is disclosed directly on this page.
 
-The PBIX file itself is included in this repository at `dashboard/Singapore_Healthcare_Analytics.pbix`. `POWER_BI_BUILD_GUIDE.md` documents the data model, every DAX measure, and the page-by-page build steps used to construct it.
+The PBIX file itself is included in this repository at `dashboard/Singapore_Healthcare_Analytics.pbix`. `POWER_BI_BUILD_GUIDE.md` documents the data model and the page-by-page build steps used to construct it; it preserves the 20 original DAX formulas and describes the observed behaviour of additional measures used by the final dashboard whose exact formulas could not be verified.
 
 ## Key findings
 
