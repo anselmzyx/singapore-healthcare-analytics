@@ -20,11 +20,11 @@ I downloaded three datasets from data.gov.sg (Singapore Department of Statistics
 
 | Dataset | ID | Coverage | Grain |
 |---|---|---|---|
-| [Hospital Admissions, Outpatient Attendances & Day Surgeries](https://data.gov.sg/datasets/d_b1ac3356e23ecad918854bbfa3627952/view) | `d_b1ac3356e23ecad918854bbfa3627952` | 1987 to 2026 | Monthly |
+| [Hospital Admissions, Public Sector Outpatient Attendances & Day Surgeries](https://data.gov.sg/datasets/d_b1ac3356e23ecad918854bbfa3627952/view) | `d_b1ac3356e23ecad918854bbfa3627952` | 1987 to 2026 | Monthly |
 | [Health Facilities & Inpatient Beds (Public/Private/Not-for-Profit)](https://data.gov.sg/datasets/d_852ebeb1165d0ec4cdc89fa7742959d1/view) | `d_852ebeb1165d0ec4cdc89fa7742959d1` | 2009 to 2025 | Annual |
 | [Hospital Beds by Facility Type & Planning Region](https://data.gov.sg/datasets/d_0ed27481bde3ad8abac12be380a441bb/view) | `d_0ed27481bde3ad8abac12be380a441bb` | 2020 to 2025 | Annual |
 
-My analysis focuses on 2015 to 2025, the period common to the two national datasets. The regional dataset only covers 2020 to 2025, so any regional finding is limited to that shorter window. The three datasets also differ in grain (monthly versus annual) and in scope (national totals versus regional breakdowns), and they share no row-level key; I discuss what that means for comparability in Data-quality methodology and limitations below. Full licensing and attribution details are in Attribution and licensing at the end of this document.
+My analysis focuses on 2015 to 2025, the period common to the two national datasets. The regional dataset only covers 2020 to 2025, so any regional finding is limited to that shorter window. The three datasets also differ in grain (monthly versus annual) and in scope (national totals versus regional breakdowns), and they share no row-level key; I discuss what that means for comparability in Data-quality methodology and limitations below. The outpatient attendance figures follow the monthly dataset's own public-sector reporting scope; they do not necessarily capture all private-sector outpatient activity in Singapore. Full licensing and attribution details are in Attribution and licensing at the end of this document.
 
 ## Workflow
 
@@ -34,7 +34,7 @@ My analysis focuses on 2015 to 2025, the period common to the two national datas
 | 2. Cleaning | Python, pandas | Three analysis-ready CSVs in `data/processed/`, with 741 admissions category-months reconciled against source totals |
 | 3. Exploratory analysis | Python, pandas, matplotlib, Jupyter | A public EDA notebook and 7 PNG charts |
 | 4. Business analysis | DuckDB SQL | 7 SQL queries answering the 5 business questions plus a source-reconciliation check, all exported to `results/sql/` |
-| 5. Dashboard | Power BI Desktop | A two-page report built manually from a 4-table model (3 fact tables plus a Year dimension) and 20 DAX measures |
+| 5. Dashboard | Power BI Desktop | A two-page report built manually from a 4-table model (3 fact tables plus a Year dimension) and DAX measures, documented in `POWER_BI_BUILD_GUIDE.md` |
 
 I validated each stage before moving on to the next: the cleaning script's own reconciliation checks, independent SQL re-derivation of figures also produced in the notebook, and a direct comparison of every dashboard KPI against the underlying CSVs. Full methodology and validation detail for each stage is in `STAGE2_CLEANING_NOTES.md`, `STAGE3_EDA_FINDINGS.md`, and `STAGE4_SQL_FINDINGS.md`.
 
@@ -44,13 +44,13 @@ I validated each stage before moving on to the next: the cleaning script's own r
 
 ![Service Demand & Utilisation dashboard page](dashboard/screenshots/01_healhcare_service_demand_and_utilisation.png)
 
-Admissions and outpatient attendance trends by type, the Public admission share for Acute and Community Hospitals, and annual healthcare activity growth, all covering 2015 to 2025. An interactive year-range slicer filters every trend to a custom period, while the KPI cards stay fixed to 2025 regardless of the slicer selection.
+Admissions and outpatient attendance trends by type, the Public admission share for Acute and Community Hospitals, and annual healthcare activity growth, all covering 2015 to 2025. An interactive year-range slicer lets most trend visuals be filtered to a custom period; the KPI cards and the annual-growth chart stay fixed to their own reporting window (2025, and 2019 to 2022 respectively) regardless of the slicer selection.
 
 ### Page 2: Hospital Capacity & Regions
 
 ![Hospital Capacity & Regions dashboard page](dashboard/screenshots/02_hospital_capacity_and_regional_distribution.png)
 
-Hospital bed capacity by ownership sector and by hospital type, a regional matrix of hospital beds by facility type that updates dynamically to the slicer's selected end year, and the indexed comparison of Public Acute admissions versus bed capacity. The same year-range slicer and fixed 2025 KPI cards are used here. The 2021 national-versus-regional bed discrepancy (see Key findings) is disclosed directly on this page.
+Hospital bed capacity by ownership sector and by hospital type, a regional matrix of hospital beds by facility type, and the indexed comparison of Public Acute admissions versus bed capacity. The same year-range slicer and fixed 2025 KPI cards are used here. The regional matrix shows the latest available year within the selected slicer range rather than a sum across that range, and regional coverage begins in 2020, so narrowing the range below that leaves it with nothing to show. The 2021 national-versus-regional bed discrepancy (see Key findings) is disclosed directly on this page.
 
 The PBIX file itself is included in this repository at `dashboard/Singapore_Healthcare_Analytics.pbix`. `POWER_BI_BUILD_GUIDE.md` documents the data model, every DAX measure, and the page-by-page build steps used to construct it.
 
@@ -122,4 +122,4 @@ This project's three source datasets are published by data.gov.sg under the [Sin
 
 > Contains information from "Hospital Admissions, Public Sector Outpatient Attendances And Day Surgeries, Monthly", "Health Facilities And Beds In Inpatient Facilities" and "Hospital Beds By Facility Type And Planning Region" accessed on 8 November 2026 from data.gov.sg, made available under the terms of the [Singapore Open Data Licence version 1.0](https://developers.data.gov.sg/open-data-licence).
 
-Because this licence explicitly permits redistribution and derivative works, this repository includes the original raw CSVs, the cleaned processed CSVs, and the Power BI `.pbix` file itself, unlike projects built on datasets with more restrictive or unclear reuse terms.
+Because this licence explicitly permits redistribution and derivative works, this repository includes the original raw CSVs, the cleaned processed CSVs, and the Power BI `.pbix` file itself.

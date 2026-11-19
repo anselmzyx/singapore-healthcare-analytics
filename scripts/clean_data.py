@@ -1,5 +1,5 @@
 """
-Stage 2 — Data Cleaning and Preparation
+Stage 2: Data Cleaning and Preparation
 Singapore Healthcare Utilisation & Capacity Analysis (2015-2025)
 
 Reads the three original raw CSVs (unmodified), reshapes and standardises
@@ -40,7 +40,7 @@ def log(msg):
 
 
 # ===========================================================================
-# TASK 2 — Monthly healthcare utilisation
+# TASK 2: Monthly healthcare utilisation
 # ===========================================================================
 def clean_monthly():
     log("\n=== TASK 2: Monthly healthcare utilisation ===")
@@ -165,7 +165,7 @@ def clean_monthly():
 
 
 # ===========================================================================
-# TASK 3 — Healthcare facilities and beds (national, annual)
+# TASK 3: Healthcare facilities and beds (national, annual)
 # ===========================================================================
 def clean_facilities():
     log("\n=== TASK 3: Healthcare facilities and beds (national) ===")
@@ -206,7 +206,7 @@ def clean_facilities():
 
 
 # ===========================================================================
-# TASK 4 — Regional hospital bed capacity (annual)
+# TASK 4: Regional hospital bed capacity (annual)
 # ===========================================================================
 def clean_regional():
     log("\n=== TASK 4: Regional hospital bed capacity ===")
@@ -289,7 +289,7 @@ def clean_regional():
 
 
 # ===========================================================================
-# TASK 5 — Cross-dataset validation
+# TASK 5: Cross-dataset validation
 # ===========================================================================
 def cross_validate(monthly, facilities, regional):
     log("\n=== TASK 5: Cross-dataset validation ===")
@@ -376,7 +376,7 @@ def cross_validate(monthly, facilities, regional):
     ]["regional_sum"]
     nat_val = int(nat_val.iloc[0]) if len(nat_val) else None
     reg_val = int(reg_val.iloc[0]) if len(reg_val) else None
-    log(f"\n2021 Public Community Hospitals beds — national facilities dataset: {nat_val}, "
+    log(f"\n2021 Public Community Hospitals beds, national facilities dataset: {nat_val}, "
         f"sum of regional dataset: {reg_val}, difference: "
         f"{(nat_val - reg_val) if nat_val is not None and reg_val is not None else 'n/a'}. "
         f"Both original values preserved unmodified in their respective processed files; "

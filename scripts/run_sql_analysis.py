@@ -1,5 +1,5 @@
 """
-Stage 4 — SQL Analysis Runner
+Stage 4: SQL Analysis Runner
 Singapore Healthcare Utilisation & Capacity Analysis (2015-2025)
 
 Loads the three Stage 2 processed CSVs into an in-memory DuckDB database

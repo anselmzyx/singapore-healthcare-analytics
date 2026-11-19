@@ -44,7 +44,7 @@ Produced by `scripts/clean_data.py` (rerunnable; reads `data/raw/`, writes `data
 - National facilities dataset (Dataset 2): **1,180** beds.
 - Sum of regional dataset (Dataset 3): **1,112** beds.
 - **Difference: 68 beds.**
-- Both original values are preserved unchanged in their respective processed files. No correction, averaging, or reconciliation was applied. This is a source-data discrepancy, not a cleaning error, and is flagged here for ChatGPT/analyst review before any downstream use of 2021 Community Hospital figures.
+- Both original values are preserved unchanged in their respective processed files. No correction, averaging, or reconciliation was applied. This is a source-data discrepancy, not a cleaning error; review this discrepancy before relying on 2021 Community Hospital bed figures for any downstream analysis.
 
 ## Analytical Limitations Carried Forward
 
