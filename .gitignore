@@ -33,3 +33,7 @@ dashboard/pbix_backups/
 
 # Stray duplicate dashboard file kept at project root (canonical copy lives in dashboard/)
 /Singapore_Healthcare_Analytics.pbix
+
+# Local AI-assistant instructions and working notes (not part of the project)
+CLAUDE.md
+.claude/
