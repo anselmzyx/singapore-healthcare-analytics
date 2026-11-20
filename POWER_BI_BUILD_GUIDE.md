@@ -1,6 +1,22 @@
 # Power BI Build Guide: Singapore Healthcare Analytics (Stage 5A)
 
-This guide documents how the Power BI dashboard was built manually in Power BI Desktop (via Parallels on a Mac), and serves as the reference for rebuilding or auditing it. The finished `.pbix` file is published at `dashboard/Singapore_Healthcare_Analytics.pbix`; everything below (data model, DAX, page layouts) reflects what was actually built, and remains copy-paste-ready for reproducing it from scratch.
+This guide documents how the Power BI dashboard was built manually in Power BI Desktop (via Parallels on a Mac), and serves as the reference for rebuilding or auditing it. The finished `.pbix` file is published at `dashboard/Singapore_Healthcare_Analytics.pbix`.
+
+## Status of this guide (updated 20 November 2026)
+
+This guide mixes the **original Stage 5A build plan** with the **final as-built dashboard**. Where they differ, the as-built description wins. Each kind of content is labelled:
+
+| Content | Status |
+|---|---|
+| Part 1 (data model), Part 4 (build steps) | Original plan, still accurate for the model; step 8 is updated for the final measures |
+| Part 2 (page layouts, interactions) | As-built, corrected against screenshots and the saved report definition |
+| **Part 3A (final as-built measures)** | **Five final-dashboard measures, supplied by the owner from Power BI Desktop** |
+| Part 3 (the 20 Stage 5A measures) | **Historical.** Kept unedited as the original build reference |
+
+How each statement was established:
+- **Verified independently (static, read-only):** field bindings, visual-level filters and interaction settings in the saved report definition (the `Report/definition/` JSON inside the `.pbix`); the dashboard values in both screenshots against the processed CSVs and `results/sql/`.
+- **Owner-supplied, manually checked:** the five formulas in Part 3A, copied from Power BI Desktop, and the manual slicer tests recorded in §2.3. They were *not* extracted from the PBIX's compressed data model and have not been independently re-run.
+- **Not verified:** the formulas of any other final measure; the no-data title correction (owner-reported, not retested); anything that needs Power BI Desktop to run. The compressed `DataModel` can't be read outside Power BI Desktop.
 
 **Source files** (all already exist, all unchanged by this stage):
 - `data/processed/healthcare_utilisation_monthly.csv`
@@ -81,7 +97,7 @@ Use `Year[Year]` as the axis for the indexed chart, and as the field for each pa
 
 ## Part 2: Dashboard Design
 
-**Historical note:** this Part originally documented the Stage 5A plan before the dashboard was built. The dashboard has since been built and redesigned, and published at `dashboard/Singapore_Healthcare_Analytics.pbix`. The content below was corrected against the two current screenshots (`dashboard/screenshots/01_healhcare_service_demand_and_utilisation.png`, `dashboard/screenshots/02_hospital_capacity_and_regional_distribution.png`) and against a read-only inspection of the PBIX's report definition (the human-readable `Report/definition/...` JSON inside the `.pbix` zip, which records each visual's field bindings and interaction settings). The PBIX's compiled data model (`DataModel`) is a binary VertiPaq part with no readable DAX text, so measure *formulas* could not be inspected this way; only measure *names* and *field roles* could be confirmed, and that distinction is called out explicitly wherever it applies below.
+**Historical note:** this Part originally documented the Stage 5A plan before the dashboard was built. The dashboard has since been built and redesigned, and published at `dashboard/Singapore_Healthcare_Analytics.pbix`. The content below was corrected against the two current screenshots (`dashboard/screenshots/01_healhcare_service_demand_and_utilisation.png`, `dashboard/screenshots/02_hospital_capacity_and_regional_distribution.png`) and against a read-only inspection of the PBIX's report definition (the human-readable `Report/definition/...` JSON inside the `.pbix` zip, which records each visual's field bindings and interaction settings). The PBIX's compiled data model (`DataModel`) is a binary VertiPaq part with no readable DAX text, so measure *formulas* could not be inspected this way; only measure *names* and *field roles* could be confirmed from the report definition. The formulas of the final-dashboard measures that are not in Part 3 were later supplied by the owner and are documented in Part 3A.
 
 Two report pages, both **2560 × 1440 (QHD)**, sharing a navy-and-teal colour theme and a common "Singapore Healthcare Analytics" title. Rename the page tabs:
 - Page 1 → **01 Service Demand & Utilization** (on-report subtitle: "Healthcare Service Demand & Utilization | 2015-2025")
@@ -130,8 +146,8 @@ Confirmed directly from the report definition: all four cards are bound to exact
 
 **Chart 4: "Annual Healthcare Activity Growth (2019-2022)"**
 - Visual type: **Clustered column chart**, legend = `service_category` (Acute Hospitals, Community Hospitals, Dental Clinics, Specialist Outpatient Clinics)
-- Values: `[YoY % Change]`
-- Filters: visual-level filter restricting the category axis to 2019-2022
+- Final field configuration (report bindings confirmed independently; formula supplied by the owner, see Part 3A): X-axis `Year[Year]`, Y-axis **`[Service YoY %]`**, legend `Monthly Utilisation[service_category]`. The Part 3 measure `[YoY % Change]` is the original plan's measure and is **not** the measure used by the final chart.
+- Filters: a visual-level filter on `Year[Year]` (2019 to 2022) and one restricting `service_category` to the four services shown
 - Confirmed **NoFilter** against the Year Range slicer: this chart keeps its own fixed 2019-2022 window regardless of the slicer's range, the same logic previously used to protect the old "2020 vs. 2025" comparison chart.
 - Purpose: year-over-year growth for four services around the 2020-2022 period, descriptive only; no causal claim.
 
@@ -166,9 +182,9 @@ Confirmed directly from the report definition: the published cards use measures 
 
 **Chart 3: "Hospital Beds by Region & Type"**
 - Visual type: **Matrix**, rows = `Regional Beds Annual[planning_region]`, columns = `Regional Beds Annual[facility_type]`, with conditional-formatting background colour on the values
-- Values and title: bound to two measures confirmed by name in the report definition, **`Regional Beds (Selected Year)`** and **`Regional Beds Matrix Title`**, both defined in the `Facilities Annual` table. **These are not part of the original 20 Stage 5A measures in Part 3, and their exact DAX formulas could not be verified** (the compiled data model does not expose readable DAX text); only their names, table location, and field roles are confirmed.
-- Observed behaviour, based on the measure names and the screenshot (which shows a single year's totals summing to 17,296, matching the known 2025 total exactly, with no multi-year inflation): the matrix shows the **latest available year within the currently selected slicer range**, not a sum across the range, and the title updates to reflect that year. If you rebuild this, make sure your own measure does the same: pick the single latest year in range (e.g. via `MAX` over the filtered year column, then `CALCULATE` restricted to that year) rather than letting the matrix's values be a plain `SUM` across however many years the slicer currently spans.
-- Regional coverage begins in **2020**; selecting a slicer range that excludes 2020-2025 entirely would leave this matrix with nothing to show.
+- Values and title: bound to two measures confirmed by name in the report definition, **`Regional Beds (Selected Year)`** (values) and **`Regional Beds Matrix Title`** (title), both shown in the report bindings under the `Facilities Annual` table. They build on **`Regional Hospital Beds`**. None of the three is among the original 20 Stage 5A measures in Part 3. Their formulas are documented in **Part 3A** (owner-supplied, not independently extracted).
+- Behaviour: the matrix shows the **latest available year within the currently selected slicer range**, not a sum across the range, and the title shows that year. Moving the range's end year from 2021 to 2025 changes the total from 15,665 to 17,296 (one year each, never a multi-year sum). If you rebuild this, pick the single latest year in range rather than letting the matrix use a plain `SUM` across however many years the slicer spans.
+- Regional coverage begins in **2020**. If the selected range ends before 2020 (for example 2015-2019) there are no regional rows, the matrix is empty, and the title reads **"Hospital Beds by Region & Type (No Data)"** rather than showing empty parentheses. This no-data title is the final version of the title measure (Part 3A, Measure 5; owner-reported, not retested here).
 - Expected result at the 2025 end of the range: Central Region / Acute Hospitals is the largest single cell (8,326); Psychiatric Hospitals is blank everywhere except North-East Region (1,950); grand total 17,296.
 
 **Chart 4: "Public Acute Admissions vs Bed Capacity (2015=100)"**
@@ -195,11 +211,111 @@ Both pages use a single **Year Range slicer** (a between-style slicer bound to `
 
 To configure this yourself: build one slicer per page from `Year[Year]` as a **Between** (range) slicer, then for each KPI card and for Page 1's Chart 4, select the slicer → **Format → Edit interactions** → click the "no interaction" (circle-slash) icon against that visual.
 
+**Manual tests (owner-reported, Power BI Desktop, 20 November 2026).** These are the only interactive tests this guide records. They were run by the project owner and have not been independently re-run; the static report-definition checks above are consistent with them.
+
+| Page | Slicer set to | Observed |
+|---|---|---|
+| 1 | 2023-2025 (from 2015-2025) | All four KPI cards stayed at their 2025 values. Hospital Admissions by Type, Outpatient Attendances by Service and Public Share of Hospital Admissions showed 2023-2025 only. Annual Healthcare Activity Growth stayed fixed at 2019-2022. |
+| 2 | 2020-2021 | Four KPI cards stayed at 2025 values. Both bed-capacity charts and the indexed chart followed the range. The regional matrix showed 2021 only, grand total **15,665**. |
+| 2 | 2023-2025 | The regional matrix showed 2025, grand total **17,296**, title "Hospital Beds by Region & Type (2025)". |
+| 2 | 2015-2019 | No regional figures (correct: regional data starts in 2020). The title previously showed empty parentheses; the title measure was then updated to show "(No Data)". The updated title was not retested by the author of this guide. |
+
+The two regional totals match `data/processed/hospital_beds_region_annual.csv` (2021: 15,665; 2025: 17,296), which was checked independently. Not tested: other slicer ranges, cross-filtering by clicking visuals, or reopening the saved file on another machine.
+
+**Before saving or sharing the `.pbix`, reset each Year Range slicer to the full 2015-2025 range.** A slicer selection is saved inside the file, and a leftover test range (for example "up to 2020") makes the report open on a narrowed period that doesn't match the screenshots.
+
 ---
 
-## Part 3: DAX Measures
+## Part 3A: Final as-built measures (owner-supplied)
 
-The 20 measures below are the original Stage 5A formulas and are kept exactly as first written; they are the historical build reference and have not been edited for this documentation refinement. Field-binding inspection of the published report definition confirms all four Page 1 KPI cards and both Page 2 stacked-column charts still use these exact measure names. The two index measures are also still in use on Page 2 Chart 4, under cosmetic name variants (`Admissions Index (2015 BASE 100)`, `Bed Capacity Index (2015 Base 100)`) noted in §2.2. The published dashboard additionally uses at least two further measures, for the Page 2 regional matrix, that are not documented here because their DAX could not be independently verified (see §2.2); do not assume the final PBIX contains exactly 20 measures in total.
+These five measures are used by the final dashboard but are **not** among the 20 historical Stage 5A measures in Part 3. The project owner copied their formulas from Power BI Desktop on 20 November 2026. They are documented here exactly as supplied. They were **not** extracted from the PBIX's compressed data model, and they have not been independently re-run. Which visual uses each measure was confirmed independently from the report definition.
+
+| # | Measure | Used by | Replaces / relates to |
+|---|---|---|---|
+| 1 | `Service Activity` | Base measure for `Service YoY %` | New helper |
+| 2 | `Service YoY %` | Page 1 chart "Annual Healthcare Activity Growth (2019-2022)" | **Replaces** the Part 3 measure `YoY % Change`, which the final chart does not use |
+| 3 | `Regional Hospital Beds` | Base measure for the regional matrix | New helper (Part 3 has a similar `Regional Beds`) |
+| 4 | `Regional Beds (Selected Year)` | Page 2 regional matrix values | New |
+| 5 | `Regional Beds Matrix Title` | Page 2 regional matrix title | New; the original version is superseded (below) |
+
+### 1. Service Activity
+```dax
+Service Activity =
+SUM('Monthly Utilisation'[count])
+```
+A plain sum of `count` in the current filter context. It has no `measure_type` filter, so it is only safe where `service_category` is already in context. On the Page 1 growth chart `service_category` is the legend, so each series isolates one service (Public and Non-Public rows are added together; the parent total rows were dropped in cleaning, so nothing is counted twice).
+
+### 2. Service YoY %
+```dax
+Service YoY % =
+VAR CurrentYear = SELECTEDVALUE('Year'[Year])
+VAR CurrentCount = [Service Activity]
+VAR PreviousCount =
+    CALCULATE(
+        [Service Activity],
+        REMOVEFILTERS('Year'),
+        'Monthly Utilisation'[year] = CurrentYear - 1
+    )
+RETURN
+    IF(
+        ISBLANK(CurrentYear),
+        BLANK(),
+        DIVIDE(CurrentCount - PreviousCount, PreviousCount)
+    )
+```
+Year-over-year change for the year on the chart's axis. `SELECTEDVALUE` returns a year only when exactly one year is in context, otherwise the measure is blank. `REMOVEFILTERS('Year')` lets the prior-year lookup ignore the Year filter, so 2019's growth can read 2018 even though 2018 isn't on the axis. `DIVIDE` returns blank if there is no prior-year value.
+
+Final field configuration: X-axis `Year[Year]`, Y-axis `[Service YoY %]`, legend `Monthly Utilisation[service_category]`. The chart is fixed at 2019-2022 when the Year Range slicer changes (NoFilter interaction plus a visual-level year filter, both confirmed independently in the report definition). For reference, the processed data gives 2020 growth of Dental Clinics -34.4% and Community Hospitals +4.0%, matching the screenshot.
+
+### 3. Regional Hospital Beds
+```dax
+Regional Hospital Beds =
+SUM('Regional Beds Annual'[no_beds])
+```
+A plain sum of regional beds in the current filter context.
+
+### 4. Regional Beds (Selected Year)
+```dax
+Regional Beds (Selected Year) =
+VAR SelectedYear =
+    MAX('Regional Beds Annual'[year])
+RETURN
+    CALCULATE(
+        [Regional Hospital Beds],
+        KEEPFILTERS('Regional Beds Annual'[year] = SelectedYear)
+    )
+```
+Shows the latest year available within the selected range instead of adding years together. Each matrix cell finds the latest regional year in its own filter context and sums beds for that year only. `KEEPFILTERS` keeps the existing filter on the year column instead of replacing it. This gives the range's latest year in every cell because all 11 region-and-facility-type combinations have rows in every year from 2020 to 2025 (checked in `hospital_beds_region_annual.csv`). If a combination were missing its latest year, its cell would silently show an earlier year. Where no regional rows exist (a range before 2020), the measure is blank.
+
+### 5. Regional Beds Matrix Title (final version)
+```dax
+Regional Beds Matrix Title =
+VAR SelectedYear =
+    MAX('Regional Beds Annual'[year])
+RETURN
+    IF(
+        ISBLANK(SelectedYear),
+        "Hospital Beds by Region & Type (No Data)",
+        "Hospital Beds by Region & Type (" &
+        FORMAT(SelectedYear, "0") & ")"
+    )
+```
+Dynamic title. For a range with regional data it reads "... (2025)" and so on; for a range before 2020 it reads "(No Data)". The no-data branch is the owner's correction, reported but not retested here.
+
+**Historical version (superseded):**
+```dax
+Regional Beds Matrix Title =
+"Hospital Beds by Region & Type (" &
+FORMAT(MAX('Regional Beds Annual'[year]), "0") &
+")"
+```
+With no regional data this produced empty parentheses ("Hospital Beds by Region & Type ()").
+
+---
+
+## Part 3: DAX Measures (historical Stage 5A reference)
+
+**Historical.** The 20 measures below are the original Stage 5A formulas and are kept exactly as first written. They have not been edited. Field-binding inspection of the published report definition confirms all four Page 1 KPI cards and both Page 2 stacked-column charts still use these exact measure names. The two index measures are also still in use on Page 2 Chart 4, under cosmetic name variants (`Admissions Index (2015 BASE 100)`, `Bed Capacity Index (2015 Base 100)`) noted in §2.2. The final dashboard also uses the five measures in Part 3A, and `YoY % Change` below is **not** the measure behind the Page 1 growth chart (that is `Service YoY %`). Do not assume the final PBIX contains exactly 20 measures, or that every final formula is documented: only the Part 3 formulas (original build) and the Part 3A formulas (owner-supplied) are.
 
 Create each measure in the table listed (right-click the table → **New measure**). Format numbers with thousands separators; format `%` measures as Percentage with 1 decimal place.
 
@@ -343,7 +459,7 @@ VAR PriorVal = CALCULATE(SUM('Monthly Utilisation'[count]), 'Monthly Utilisation
 RETURN
     DIVIDE(CurrentVal - PriorVal, PriorVal)
 ```
-Year-over-year percentage change for whatever `service_category` is in context (via chart Legend). Uses `MAX(year)` so it correctly reads "the year of this chart row" rather than being confused by a wider filter range. Expected value for `service_category = "Dental Clinics"`, year = 2020: **≈-34.4%**.
+Year-over-year percentage change for whatever `service_category` is in context (via chart Legend). Uses `MAX(year)` so it correctly reads "the year of this chart row" rather than being confused by a wider filter range. Expected value for `service_category = "Dental Clinics"`, year = 2020: **≈-34.4%**. *Historical: the final Page 1 chart uses `Service YoY %` (Part 3A, Measure 2) instead.*
 
 ### In `Facilities Annual`
 
@@ -431,7 +547,7 @@ Share of the current `planning_region` within the total across **all** regions, 
 5. **Set/verify data types** following §1.3 (Transform Data → check each column's type icon).
 6. **Create the Year table** following §1.4 (Enter Data, 11 rows, 2015–2025).
 7. **Build the three relationships** following §1.5 (Model view, drag Year[Year] to each fact table's year column, confirm 1:* and Single direction on each).
-8. **Create the 20 documented DAX measures** from Part 3 (right-click each table → New measure → paste the formula → Enter). Format each one (number/percentage, decimal places, thousands separator) via the **Measure tools → Formatting** ribbon. Note: the published dashboard also uses at least two further measures for the Page 2 regional matrix (`Regional Beds (Selected Year)`, `Regional Beds Matrix Title`, both in `Facilities Annual`) that are not documented in Part 3 because their formulas could not be verified; see §2.2 if you want to recreate that behaviour yourself.
+8. **Create the 20 documented DAX measures** from Part 3 (right-click each table → New measure → paste the formula → Enter). Format each one (number/percentage, decimal places, thousands separator) via the **Measure tools → Formatting** ribbon. Then add the five final-dashboard measures from **Part 3A** (`Service Activity`, `Service YoY %`, `Regional Hospital Beds`, `Regional Beds (Selected Year)`, and the final `Regional Beds Matrix Title`). The Page 1 growth chart uses `Service YoY %`, not Part 3's `YoY % Change`.
 9. **Build Page 1** visual by visual, following §2.1: 4 KPI cards, then Chart 1 → Chart 2 → Chart 3 → Chart 4, in that order (so you can check each chart's numbers as you go rather than debugging four charts at once).
 10. **Build Page 2** visual by visual, following §2.2: 4 KPI cards, then Chart 1 → Chart 2 → Chart 3 → Chart 4.
 11. **Add the Year Range slicer to both pages** following §2.3 (a Between slicer built from `Year[Year]` on each page), and set each KPI card's, and Page 1 Chart 4's, interaction with it to **None** as described.
@@ -452,7 +568,7 @@ Work through this after building, before considering the dashboard done:
 - [ ] **No double-counting**: `[Total Admissions]` never includes Outpatient Attendances or Day Surgeries rows; `[Total Hospital Beds]` never includes Residential Long-Term Care rows; Page 1 Chart 1's small-multiple panels sum to the same total as `[Total Admissions]` for any given year; the Page 2 regional matrix shows one year's figures, never a sum across multiple years.
 - [ ] **Correct filter interactions**: on both pages, all 4 KPI cards and Page 1 Chart 4 are set to **None** against the Year Range slicer and stay fixed/unaffected no matter how the slicer is set; Page 1 Charts 1-3 and Page 2 Charts 1-2 do respond to the slicer's range; the Page 2 matrix and indexed line chart behave as described in §2.2 (verify in **Format → Edit interactions** with the slicer selected).
 - [ ] **No misleading mixed-unit KPIs**: no card or chart divides admissions by beds, and nothing is labelled "occupancy" or "utilisation rate" anywhere on either page.
-- [ ] **Correct regional matrix behaviour**: moving the Year Range slicer's end year changes the matrix's title and totals to that single year, never to a sum of multiple years; at the 2025 end of the range the grand total is 17,296, matching `data/processed/hospital_beds_region_annual.csv`.
+- [ ] **Correct regional matrix behaviour**: moving the Year Range slicer's end year changes the matrix's title and totals to that single year, never to a sum of multiple years; at the 2025 end of the range the grand total is 17,296, matching `data/processed/hospital_beds_region_annual.csv`; with the slicer ending in 2021 the grand total is 15,665; with a range before 2020 the matrix is empty and the title reads "(No Data)".
 - [ ] **Source-discrepancy disclaimer** is visible on Page 2 (the 1,180 vs. 1,112 / 68-bed note).
 - [ ] **Dashboard readability**: consistent colour per sector across every chart that uses one, legible axis labels and titles, no overlapping text, KPI cards show units (admissions, beds, %, index points).
 - [ ] **Successful `.pbix` save**: file saved, reopens without errors, and recalculates the same figures as this checklist on reopen.
